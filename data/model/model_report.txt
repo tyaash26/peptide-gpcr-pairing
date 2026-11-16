@@ -1,0 +1,44 @@
+embeddings: 253 proteins x 1280 dims
+split files: 3  (24 components per side, 72 features)
+
+splits_cold_receptor_matched_seed0.csv  n=1348, base rate 0.259, dropped 137
+  logreg__full AUROC 0.589  AUPRC 0.311  null 0.498 [0.463–0.535]  p=0.0010  <-- exceeds null
+  gbm__full AUROC 0.700  AUPRC 0.464  null 0.500 [0.467–0.535]  p=0.0010  <-- exceeds null
+  logreg__no_interaction AUROC 0.425  AUPRC 0.215  null 0.499 [0.463–0.534]  p=0.0010  <-- exceeds null
+  gbm__no_interaction AUROC 0.646  AUPRC 0.438  null 0.501 [0.467–0.536]  p=0.0010  <-- exceeds null
+  logreg__receptor_only AUROC 0.521  AUPRC 0.274  null 0.499 [0.466–0.533]  p=0.2210
+  gbm__receptor_only AUROC 0.511  AUPRC 0.266  null 0.500 [0.463–0.536]  p=0.5520
+  logreg__peptide_only AUROC 0.387  AUPRC 0.200  null 0.499 [0.463–0.534]  p=0.0010  <-- exceeds null
+  gbm__peptide_only AUROC 0.251  AUPRC 0.170  null 0.500 [0.464–0.537]  p=0.0010  <-- exceeds null
+
+splits_cold_receptor_matched_seed1.csv  n=1344, base rate 0.260, dropped 141
+  logreg__full AUROC 0.572  AUPRC 0.306  null 0.497 [0.461–0.533]  p=0.0010  <-- exceeds null
+  gbm__full AUROC 0.697  AUPRC 0.455  null 0.499 [0.463–0.537]  p=0.0010  <-- exceeds null
+  logreg__no_interaction AUROC 0.387  AUPRC 0.204  null 0.497 [0.462–0.530]  p=0.0010  <-- exceeds null
+  gbm__no_interaction AUROC 0.614  AUPRC 0.378  null 0.497 [0.462–0.531]  p=0.0010  <-- exceeds null
+  logreg__receptor_only AUROC 0.480  AUPRC 0.246  null 0.489 [0.452–0.523]  p=0.5620
+  gbm__receptor_only AUROC 0.484  AUPRC 0.253  null 0.497 [0.464–0.530]  p=0.4520
+  logreg__peptide_only AUROC 0.382  AUPRC 0.200  null 0.499 [0.465–0.535]  p=0.0010  <-- exceeds null
+  gbm__peptide_only AUROC 0.237  AUPRC 0.169  null 0.501 [0.466–0.532]  p=0.0010  <-- exceeds null
+
+splits_cold_receptor_matched_seed2.csv  n=1348, base rate 0.259, dropped 137
+  logreg__full AUROC 0.576  AUPRC 0.302  null 0.501 [0.467–0.538]  p=0.0010  <-- exceeds null
+  gbm__full AUROC 0.685  AUPRC 0.458  null 0.500 [0.467–0.536]  p=0.0010  <-- exceeds null
+  logreg__no_interaction AUROC 0.417  AUPRC 0.211  null 0.500 [0.469–0.535]  p=0.0010  <-- exceeds null
+  gbm__no_interaction AUROC 0.626  AUPRC 0.398  null 0.501 [0.465–0.535]  p=0.0010  <-- exceeds null
+  logreg__receptor_only AUROC 0.512  AUPRC 0.265  null 0.500 [0.464–0.534]  p=0.4390
+  gbm__receptor_only AUROC 0.484  AUPRC 0.255  null 0.501 [0.466–0.535]  p=0.3400
+  logreg__peptide_only AUROC 0.408  AUPRC 0.207  null 0.500 [0.465–0.535]  p=0.0010  <-- exceeds null
+  gbm__peptide_only AUROC 0.267  AUPRC 0.174  null 0.500 [0.464–0.538]  p=0.0010  <-- exceeds null
+
+Mean across seeds
+  gbm__full AUROC 0.694 (seeds 0.685-0.700)  AUPRC 0.459  p 0.0010 (worst)
+  gbm__no_interaction AUROC 0.629 (seeds 0.614-0.646)  AUPRC 0.405  p 0.0010 (worst)
+  gbm__peptide_only AUROC 0.252 (seeds 0.237-0.267)  AUPRC 0.171  p 0.0010 (worst)
+  gbm__receptor_only AUROC 0.493 (seeds 0.484-0.511)  AUPRC 0.258  p 0.5520 (worst)
+  logreg__full AUROC 0.579 (seeds 0.572-0.589)  AUPRC 0.306  p 0.0010 (worst)
+  logreg__no_interaction AUROC 0.410 (seeds 0.387-0.425)  AUPRC 0.210  p 0.0010 (worst)
+  logreg__peptide_only AUROC 0.392 (seeds 0.382-0.408)  AUPRC 0.202  p 0.0010 (worst)
+  logreg__receptor_only AUROC 0.504 (seeds 0.480-0.521)  AUPRC 0.262  p 0.5620 (worst)
+
+How to read the ablations. receptor_only and peptide_only are given ONE side of the pair and cannot know which partner is being scored, so whatever they achieve is the artifact floor set by the sampling rather than learned pairing. The full model only demonstrates pairing to the extent it beats BOTH of them. no_interaction drops the element-wise product, isolating how much the interaction term contributes. Co-evolution reached AUROC ~0.56 on these same splits.
