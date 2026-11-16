@@ -2,8 +2,14 @@
 
 Public-data study on pairing peptide ligands to G protein-coupled receptors.
 
-**Status.** Data assembly and the evaluation harness are complete. No features
-and no model yet. Nothing in this repository predicts anything.
+**Status.** Data assembly, the evaluation harness and the co-evolution
+benchmark are complete. No model is fitted and nothing here predicts anything.
+
+**Result in one line:** presence/absence co-evolution does not rank cognate
+peptide–GPCR pairs above family-matched non-pairs (AUROC 0.476–0.559, all
+intervals spanning chance), while receptor conservation alone scores 0.629.
+Both controls pass. Full numbers, controls and interpretation in
+[`FINDINGS.md`](FINDINGS.md).
 
 ## Relationship to Foster et al. (2019)
 
@@ -48,7 +54,15 @@ python build_pairs_v3.py      # -> data/pairs.csv
 python resolve_precursors.py  # -> data/precursors.csv   (UniProt, cross-checked)
 python resolve_pairs.py       # -> data/pairs_resolved.csv
 python make_splits.py --pairs data/pairs_resolved.csv --neg-ratio 3
+python fetch_orthologs_all.py # OMA orthologs -> data/fingerprints_all.csv
+python score_coevolution.py   # -> data/scores_*.csv
+python benchmark.py           # -> data/benchmark_results.csv
 ```
+
+`fetch_orthologs.py` is the same fetch restricted to 1:1 orthologs (Foster's
+setting); `fetch_orthologs_all.py` drops that filter. Both are kept so the
+relation type can be compared. `probe_ensembl.py` checks a second orthology
+source for the proteins OMA leaves out.
 
 `data/pairs_resolved.csv` is the canonical table. `probe_oma.py` checks the OMA
 API and is a diagnostic, not part of the pipeline.
@@ -148,10 +162,19 @@ Report AUPRC alongside AUROC — the base rate is about 0.25, not 0.5.
 
 ## Next
 
-Orthology fingerprints from the OMA REST API (resolution by UniProt confirmed
-working; `rel_type=1:1` matches Foster's setting), then the benchmark. Receptor
-and precursor sequence embeddings and a cold-start link-prediction model are
-planned but not started.
+Not started, in rough order of cost:
+
+- Apply this evaluation to the IL-17 ligand–receptor family, where an ERC
+  study makes pairing predictions from an annotated heatmap without a negative
+  set (see `FINDINGS.md`). Reuses the existing harness.
+- Evolutionary rate covariation as a second feature, via ERCnet, which handles
+  the gene duplication present in the chemokine families. The literature
+  predicts it measures co-function rather than binding, so a similar null is
+  likely.
+- Ensembl Compara fingerprints as a parallel per-database analysis. Not
+  mergeable with the OMA matrix — different species scope.
+- Receptor and precursor sequence embeddings with a cold-start
+  link-prediction model, for which the split harness already exists.
 
 ## Licence and credit
 
