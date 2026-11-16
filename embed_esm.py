@@ -1,110 +1,174 @@
+#!/usr/bin/env python3
 """
-ESM-2 embedding extractor -- run ONCE, cache to disk.
+Mean-pooled ESM-2 embeddings for receptor and precursor sequences.
 
-This is the only script that needs torch + fair-esm. It runs each peptide
-through a FROZEN ESM-2 model (weights never change -- this is feature
-extraction / transfer learning, NOT fine-tuning) and mean-pools the per-residue
-embeddings into one fixed-length vector per peptide. Results are cached to
-results/esm_embeddings.npz so all downstream modeling reads the cache and never
-needs torch again.
+Frozen model, no fine-tuning: with 386 positive pairs, fine-tuning a 650M
+parameter model would memorise the set. The embeddings are features for a small
+model trained on top.
 
-Model choice: esm2_t12_35M_UR50D (35M params). Small and fast on CPU, and
-appropriate for a <1000-peptide dataset -- a bigger model's richer embeddings
-tend to OVERFIT at this data scale, so small is the honest choice, not a
-compromise.
+Pooling: mean over residue positions, excluding the BOS/EOS tokens. Long
+sequences are truncated to --max-len (ESM-2 is trained at 1022 residues); the
+report counts how many were affected.
 
-Install (once):
-    pip install torch fair-esm
+Resumable: writes a .npz per batch into <out>/parts/ and merges at the end.
+Re-running skips accessions already embedded.
 
-Run (once, ~few minutes on CPU):
-    python3 src/embed_esm.py pepic50.txt
-Also embed your own peptides so they can be predicted later:
-    python3 src/embed_esm.py --seqs WYNAW NAW
+Usage (Sherlock GPU)
+--------------------
+    sh_dev                       # or salloc for a longer GPU session
+    source $OAK/Tanya/miniconda/bin/activate && conda activate grag
+    export LD_LIBRARY_PATH=$CONDA_PREFIX/lib:$LD_LIBRARY_PATH
+    nvidia-smi -L                # copy the MIG UUID
+    export CUDA_VISIBLE_DEVICES=<MIG UUID>
+    python embed_esm.py --batch 4
 
-Saves: results/esm_embeddings.npz  (dict: sequence -> vector)
+Usage (CPU)
+-----------
+    python embed_esm.py --device cpu --batch 2
+
+Outputs:
+    data/esm/embeddings.npz      accession -> vector
+    data/esm/embed_report.txt
 """
 
-from __future__ import annotations
 import argparse
 import os
+import sys
+import time
+
 import numpy as np
-
-
-def load_cache(path):
-    if os.path.exists(path):
-        d = np.load(path, allow_pickle=True)
-        return {k: v for k, v in zip(d["seqs"], d["vecs"])}
-    return {}
-
-
-def save_cache(path, cache):
-    seqs = list(cache.keys())
-    vecs = np.stack([cache[s] for s in seqs]) if seqs else np.zeros((0, 0))
-    np.savez_compressed(path, seqs=np.array(seqs, dtype=object), vecs=vecs)
-
-
-def embed_sequences(seqs, model_name="esm2_t12_35M_UR50D", batch_size=16):
-    """Mean-pooled ESM-2 embeddings. Imports torch/esm lazily so the rest of
-    the project never depends on them."""
-    import torch
-    import esm
-
-    print(f"loading {model_name} (first run downloads ~150MB)...")
-    model, alphabet = getattr(esm.pretrained, model_name)()
-    bc = alphabet.get_batch_converter()
-    model.eval()
-    # figure out which layer index to read (last layer)
-    n_layers = model.num_layers
-
-    out = {}
-    for i in range(0, len(seqs), batch_size):
-        chunk = seqs[i:i + batch_size]
-        data = [(str(j), s) for j, s in enumerate(chunk)]
-        _, _, toks = bc(data)
-        with torch.no_grad():
-            rep = model(toks, repr_layers=[n_layers])["representations"][n_layers]
-        for k, s in enumerate(chunk):
-            # mean-pool over real residues (skip BOS at 0 and EOS at len+1)
-            vec = rep[k, 1:len(s) + 1].mean(0).cpu().numpy()
-            out[s] = vec.astype(np.float32)
-        print(f"  embedded {min(i+batch_size, len(seqs))}/{len(seqs)}")
-    return out
+import pandas as pd
 
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("datafile", nargs="?", default=None,
-                    help="AHTPDB file to embed all peptides from")
-    ap.add_argument("--seqs", nargs="+", default=None,
-                    help="explicit sequences to embed (e.g. your peptides)")
-    ap.add_argument("--cache", default="results/esm_embeddings.npz")
-    ap.add_argument("--model", default="esm2_t12_35M_UR50D")
-    args = ap.parse_args()
+    ap.add_argument("--sequences", default="data/sequences.csv")
+    ap.add_argument("--out", default="data/esm")
+    ap.add_argument("--model", default="esm2_t33_650M_UR50D",
+                    help="esm2_t12_35M_UR50D is a fast smaller alternative")
+    ap.add_argument("--batch", type=int, default=4)
+    ap.add_argument("--max-len", type=int, default=1022)
+    ap.add_argument("--device", default="auto",
+                    choices=["auto", "cuda", "cpu"])
+    a = ap.parse_args()
 
-    os.makedirs("results", exist_ok=True)
-    cache = load_cache(args.cache)
-    print(f"cache has {len(cache)} embeddings already")
+    try:
+        import torch
+        import esm
+    except ImportError as e:
+        sys.exit(f"missing dependency ({e}). Install with:\n"
+                 "  mamba install -c conda-forge pytorch -y\n"
+                 "  pip install fair-esm")
 
-    # collect sequences to embed
-    need = []
-    if args.datafile:
-        from load_ahtpdb import read_ahtpdb_file, clean_ahtpdb
-        df = read_ahtpdb_file(args.datafile)
-        clean, _ = clean_ahtpdb(df, seq_col="seq", ic50_col="ic50",
-                                sbp_col="bp", verbose=False)
-        need += list(clean["sequence"])
-    if args.seqs:
-        need += [s.strip().upper() for s in args.seqs]
+    log = []
 
-    todo = sorted(set(s for s in need if s not in cache))
-    print(f"{len(todo)} new sequences to embed")
-    if todo:
-        new = embed_sequences(todo, model_name=args.model)
-        cache.update(new)
-        save_cache(args.cache, cache)
-        print(f"saved {len(cache)} total embeddings to {args.cache}")
-    else:
-        print("nothing new to embed; cache is up to date")
+    def say(m=""):
+        print(m, flush=True)
+        log.append(m)
+
+    device = a.device
+    if device == "auto":
+        device = "cuda" if torch.cuda.is_available() else "cpu"
+    say(f"device: {device}")
+    if device == "cuda":
+        say(f"  gpu: {torch.cuda.get_device_name(0)}")
+    say(f"model: {a.model}")
+
+    df = pd.read_csv(a.sequences, dtype=str)
+    df["length"] = df["sequence"].str.len()
+    say(f"sequences: {len(df)}")
+
+    parts_dir = os.path.join(a.out, "parts")
+    os.makedirs(parts_dir, exist_ok=True)
+
+    done = {}
+    for fn in sorted(os.listdir(parts_dir)):
+        if fn.endswith(".npz"):
+            with np.load(os.path.join(parts_dir, fn)) as z:
+                for k in z.files:
+                    done[k] = z[k]
+    if done:
+        say(f"resuming: {len(done)} already embedded")
+
+    todo = df[~df["accession"].isin(done)].copy()
+    todo = todo.sort_values("length")          # group similar lengths together
+    say(f"to embed: {len(todo)}")
+
+    if len(todo):
+        model, alphabet = getattr(esm.pretrained, a.model)()
+        batch_converter = alphabet.get_batch_converter()
+        model = model.to(device).eval()
+        n_layers = model.num_layers
+        say(f"  layers: {n_layers}, taking the final representation")
+
+        truncated = 0
+        t0 = time.time()
+        for i in range(0, len(todo), a.batch):
+            chunk = todo.iloc[i:i + a.batch]
+            data = []
+            for _, r in chunk.iterrows():
+                seq = r["sequence"][:a.max_len]
+                if len(r["sequence"]) > a.max_len:
+                    truncated += 1
+                data.append((r["accession"], seq))
+
+            _, _, toks = batch_converter(data)
+            toks = toks.to(device)
+            with torch.no_grad():
+                out = model(toks, repr_layers=[n_layers])
+            reps = out["representations"][n_layers]
+
+            batch = {}
+            for j, (acc, seq) in enumerate(data):
+                # exclude BOS (position 0) and EOS (position len+1)
+                vec = reps[j, 1:len(seq) + 1].mean(0).float().cpu().numpy()
+                batch[acc] = vec
+                done[acc] = vec
+            np.savez_compressed(
+                os.path.join(parts_dir, f"part_{i:05d}.npz"), **batch)
+
+            elapsed = time.time() - t0
+            rate = (i + len(chunk)) / max(elapsed, 1e-6)
+            left = (len(todo) - i - len(chunk)) / max(rate, 1e-6)
+            say(f"  [{i + len(chunk):>4}/{len(todo)}] "
+                f"{elapsed / 60:.1f} min elapsed, ~{left / 60:.1f} min left")
+
+        if truncated:
+            say(f"  {truncated} sequences truncated to {a.max_len} residues")
+
+    if not done:
+        sys.exit("nothing embedded")
+
+    dim = len(next(iter(done.values())))
+    say()
+    say(f"embeddings: {len(done)} accessions x {dim} dimensions")
+
+    missing = sorted(set(df["accession"]) - set(done))
+    if missing:
+        say(f"  missing {len(missing)}: {missing[:10]}")
+
+    path = os.path.join(a.out, "embeddings.npz")
+    np.savez_compressed(path, **done)
+    size = os.path.getsize(path) / 1e6
+    say(f"wrote {path} ({size:.1f} MB)")
+
+    # a quick sanity check: nearest neighbours of a known receptor
+    accs = sorted(done)
+    M = np.stack([done[k] for k in accs])
+    M = M / np.linalg.norm(M, axis=1, keepdims=True)
+    probe = "P30411" if "P30411" in done else accs[0]
+    sims = M @ M[accs.index(probe)]
+    order = np.argsort(-sims)[1:6]
+    say()
+    say(f"sanity check — nearest neighbours of {probe} by cosine similarity:")
+    for k in order:
+        say(f"  {accs[k]}  {sims[k]:.3f}")
+    say("  (for P30411/BDKRB2 the neighbours should be other peptide GPCRs, "
+        "not precursors; if precursors rank top, check the pooling)")
+
+    with open(os.path.join(a.out, "embed_report.txt"), "w") as f:
+        f.write("\n".join(log) + "\n")
+    print(f"\nwrote {a.out}/embed_report.txt")
 
 
 if __name__ == "__main__":
