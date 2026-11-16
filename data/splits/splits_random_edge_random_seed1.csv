@@ -1,0 +1,1545 @@
+peptide_gtopdb_id,receptor_gtopdb_id,receptor_family,label,fold
+836,80,Chemokine receptors,1,0
+4358,80,Chemokine receptors,1,3
+810,315,Chemokine receptors,1,1
+811,315,Chemokine receptors,1,3
+817,315,Chemokine receptors,1,4
+2257,370,VIP and PACAP receptors,1,1
+2258,370,VIP and PACAP receptors,1,1
+1152,370,VIP and PACAP receptors,1,1
+6894,34,Angiotensin receptors,1,0
+2504,34,Angiotensin receptors,1,3
+585,34,Angiotensin receptors,1,0
+5368,34,Angiotensin receptors,1,0
+2504,35,Angiotensin receptors,1,3
+585,35,Angiotensin receptors,1,1
+582,35,Angiotensin receptors,1,2
+8526,36,Apelin receptor,1,2
+8525,36,Apelin receptor,1,3
+8524,36,Apelin receptor,1,4
+599,36,Apelin receptor,1,1
+7930,36,Apelin receptor,1,1
+605,36,Apelin receptor,1,1
+3556,36,Apelin receptor,1,3
+606,36,Apelin receptor,1,0
+2174,366,Vasopressin and oxytocin receptors,1,3
+2168,366,Vasopressin and oxytocin receptors,1,2
+2174,367,Vasopressin and oxytocin receptors,1,3
+2168,367,Vasopressin and oxytocin receptors,1,2
+2174,368,Vasopressin and oxytocin receptors,1,2
+2168,368,Vasopressin and oxytocin receptors,1,2
+639,41,Bradykinin receptors,1,2
+644,41,Bradykinin receptors,1,0
+646,41,Bradykinin receptors,1,3
+649,41,Bradykinin receptors,1,3
+650,41,Bradykinin receptors,1,1
+646,42,Bradykinin receptors,1,2
+649,42,Bradykinin receptors,1,4
+650,42,Bradykinin receptors,1,0
+3640,31,Complement peptide receptors,1,0
+573,32,Complement peptide receptors,1,1
+574,32,Complement peptide receptors,1,4
+3728,32,Complement peptide receptors,1,1
+573,33,Complement peptide receptors,1,2
+574,33,Complement peptide receptors,1,4
+3728,33,Complement peptide receptors,1,0
+681,43,Calcitonin receptors,1,2
+682,43,Calcitonin receptors,1,0
+683,43,Calcitonin receptors,1,2
+684,43,Calcitonin receptors,1,0
+687,43,Calcitonin receptors,1,3
+685,43,Calcitonin receptors,1,4
+681,48,Calcitonin receptors,1,3
+682,48,Calcitonin receptors,1,0
+683,48,Calcitonin receptors,1,2
+684,48,Calcitonin receptors,1,3
+681,49,Calcitonin receptors,1,0
+682,49,Calcitonin receptors,1,1
+683,49,Calcitonin receptors,1,1
+684,49,Calcitonin receptors,1,1
+681,50,Calcitonin receptors,1,2
+682,50,Calcitonin receptors,1,2
+683,50,Calcitonin receptors,1,0
+684,50,Calcitonin receptors,1,4
+681,44,Calcitonin receptors,1,0
+682,44,Calcitonin receptors,1,3
+683,44,Calcitonin receptors,1,2
+684,44,Calcitonin receptors,1,1
+687,44,Calcitonin receptors,1,1
+685,44,Calcitonin receptors,1,3
+681,45,Calcitonin receptors,1,1
+683,45,Calcitonin receptors,1,0
+684,45,Calcitonin receptors,1,4
+687,45,Calcitonin receptors,1,2
+685,45,Calcitonin receptors,1,1
+681,46,Calcitonin receptors,1,0
+682,46,Calcitonin receptors,1,3
+683,46,Calcitonin receptors,1,0
+684,46,Calcitonin receptors,1,0
+687,46,Calcitonin receptors,1,4
+685,46,Calcitonin receptors,1,1
+860,76,Cholecystokinin receptors,1,3
+10221,76,Cholecystokinin receptors,1,4
+3552,76,Cholecystokinin receptors,1,0
+864,76,Cholecystokinin receptors,1,0
+860,77,Cholecystokinin receptors,1,4
+861,77,Cholecystokinin receptors,1,1
+864,77,Cholecystokinin receptors,1,2
+3558,77,Cholecystokinin receptors,1,4
+8408,77,Cholecystokinin receptors,1,4
+8409,77,Cholecystokinin receptors,1,0
+8410,77,Cholecystokinin receptors,1,1
+8411,77,Cholecystokinin receptors,1,4
+3562,77,Cholecystokinin receptors,1,2
+3566,77,Cholecystokinin receptors,1,2
+770,58,Chemokine receptors,1,4
+753,58,Chemokine receptors,1,1
+754,58,Chemokine receptors,1,2
+755,58,Chemokine receptors,1,0
+756,58,Chemokine receptors,1,3
+757,58,Chemokine receptors,1,0
+758,58,Chemokine receptors,1,3
+759,58,Chemokine receptors,1,2
+772,58,Chemokine receptors,1,1
+3646,67,Chemokine receptors,1,2
+3649,67,Chemokine receptors,1,4
+769,59,Chemokine receptors,1,0
+770,59,Chemokine receptors,1,0
+1272,59,Chemokine receptors,1,0
+771,59,Chemokine receptors,1,2
+775,59,Chemokine receptors,1,4
+776,59,Chemokine receptors,1,2
+759,59,Chemokine receptors,1,1
+772,59,Chemokine receptors,1,3
+769,60,Chemokine receptors,1,3
+770,60,Chemokine receptors,1,1
+754,60,Chemokine receptors,1,1
+771,60,Chemokine receptors,1,0
+775,60,Chemokine receptors,1,0
+776,60,Chemokine receptors,1,3
+3649,60,Chemokine receptors,1,3
+758,60,Chemokine receptors,1,2
+759,60,Chemokine receptors,1,4
+772,60,Chemokine receptors,1,0
+835,60,Chemokine receptors,1,0
+836,60,Chemokine receptors,1,1
+837,60,Chemokine receptors,1,2
+797,61,Chemokine receptors,1,0
+798,61,Chemokine receptors,1,3
+769,62,Chemokine receptors,1,2
+770,62,Chemokine receptors,1,0
+753,62,Chemokine receptors,1,1
+1272,62,Chemokine receptors,1,3
+771,62,Chemokine receptors,1,1
+756,62,Chemokine receptors,1,0
+757,62,Chemokine receptors,1,0
+758,62,Chemokine receptors,1,4
+759,62,Chemokine receptors,1,1
+772,62,Chemokine receptors,1,4
+808,63,Chemokine receptors,1,2
+3648,63,Chemokine receptors,1,3
+810,64,Chemokine receptors,1,0
+811,64,Chemokine receptors,1,0
+812,65,Chemokine receptors,1,4
+772,65,Chemokine receptors,1,0
+817,66,Chemokine receptors,1,0
+810,78,Chemokine receptors,1,3
+2945,79,Chemerin receptors,1,0
+2945,82,Chemerin receptors,1,0
+912,212,Corticotropin-releasing factor receptors,1,2
+919,212,Corticotropin-releasing factor receptors,1,4
+921,212,Corticotropin-releasing factor receptors,1,4
+912,213,Corticotropin-releasing factor receptors,1,1
+919,213,Corticotropin-releasing factor receptors,1,1
+921,213,Corticotropin-releasing factor receptors,1,1
+928,213,Corticotropin-releasing factor receptors,1,2
+856,74,Chemokine receptors,1,4
+820,68,Chemokine receptors,1,3
+821,68,Chemokine receptors,1,3
+3729,68,Chemokine receptors,1,4
+819,69,Chemokine receptors,1,2
+827,69,Chemokine receptors,1,1
+828,69,Chemokine receptors,1,2
+829,69,Chemokine receptors,1,1
+820,69,Chemokine receptors,1,4
+830,69,Chemokine receptors,1,3
+821,69,Chemokine receptors,1,1
+769,70,Chemokine receptors,1,4
+770,70,Chemokine receptors,1,1
+810,70,Chemokine receptors,1,0
+808,70,Chemokine receptors,1,0
+758,70,Chemokine receptors,1,3
+759,70,Chemokine receptors,1,3
+835,70,Chemokine receptors,1,3
+836,70,Chemokine receptors,1,1
+4358,70,Chemokine receptors,1,2
+837,70,Chemokine receptors,1,3
+4358,71,Chemokine receptors,1,3
+845,71,Chemokine receptors,1,0
+8531,71,Chemokine receptors,1,2
+8532,71,Chemokine receptors,1,4
+8530,71,Chemokine receptors,1,4
+8533,71,Chemokine receptors,1,4
+3645,72,Chemokine receptors,1,0
+855,73,Chemokine receptors,1,2
+989,219,Endothelin receptors,1,2
+990,219,Endothelin receptors,1,0
+1004,220,Endothelin receptors,1,0
+1026,222,Formylpeptide receptors,1,1
+5527,223,Formylpeptide receptors,1,4
+6244,223,Formylpeptide receptors,1,3
+1031,223,Formylpeptide receptors,1,4
+1044,223,Formylpeptide receptors,1,1
+1047,223,Formylpeptide receptors,1,3
+6242,223,Formylpeptide receptors,1,1
+3935,224,Formylpeptide receptors,1,4
+1044,224,Formylpeptide receptors,1,2
+1047,224,Formylpeptide receptors,1,3
+1157,253,Glycoprotein hormone receptors,1,2
+3549,234,Class Frizzled GPCRs,1,1
+3547,234,Class Frizzled GPCRs,1,2
+3548,234,Class Frizzled GPCRs,1,2
+3592,243,Galanin receptors,1,0
+3592,244,Galanin receptors,1,1
+11417,244,Galanin receptors,1,2
+3592,245,Galanin receptors,1,3
+11417,245,Galanin receptors,1,2
+1136,251,Glucagon receptor family,1,3
+2270,247,Glucagon receptor family,1,4
+1099,246,Ghrelin receptor,1,0
+9734,246,Ghrelin receptor,1,0
+3542,248,Glucagon receptor family,1,1
+1136,249,Glucagon receptor family,1,1
+1132,249,Glucagon receptor family,1,3
+3544,249,Glucagon receptor family,1,0
+1140,250,Glucagon receptor family,1,0
+1143,250,Glucagon receptor family,1,1
+1162,256,Gonadotrophin-releasing hormone receptors,1,3
+1164,256,Gonadotrophin-releasing hormone receptors,1,3
+6067,103,Class A Orphans with emerging pharmacology,1,2
+6067,104,Class A Orphans with emerging pharmacology,1,4
+758,115,Class A Orphans with emerging pharmacology,1,4
+6175,39,Bombesin receptors,1,3
+612,39,Bombesin receptors,1,4
+613,39,Bombesin receptors,1,2
+6178,39,Bombesin receptors,1,2
+1697,321,Orexin receptors,1,0
+1699,321,Orexin receptors,1,3
+1697,322,Orexin receptors,1,0
+1699,322,Orexin receptors,1,4
+1272,265,Histamine receptors,1,1
+137,3,5-Hydroxytryptamine receptors,1,2
+1283,266,Kisspeptin receptor,1,0
+1284,266,Kisspeptin receptor,1,1
+1285,266,Kisspeptin receptor,1,2
+1288,266,Kisspeptin receptor,1,0
+3697,147,"LGR4, LGR5, LGR6",1,3
+3698,147,"LGR4, LGR5, LGR6",1,1
+3699,147,"LGR4, LGR5, LGR6",1,4
+3700,147,"LGR4, LGR5, LGR6",1,4
+3697,148,"LGR4, LGR5, LGR6",1,1
+3698,148,"LGR4, LGR5, LGR6",1,1
+3699,148,"LGR4, LGR5, LGR6",1,0
+3700,148,"LGR4, LGR5, LGR6",1,0
+3697,149,"LGR4, LGR5, LGR6",1,0
+3698,149,"LGR4, LGR5, LGR6",1,1
+3699,149,"LGR4, LGR5, LGR6",1,0
+3700,149,"LGR4, LGR5, LGR6",1,4
+1159,254,Glycoprotein hormone receptors,1,2
+1160,254,Glycoprotein hormone receptors,1,1
+1320,282,Melanocortin receptors,1,2
+1320,284,Melanocortin receptors,1,4
+1333,284,Melanocortin receptors,1,2
+1335,284,Melanocortin receptors,1,0
+1320,285,Melanocortin receptors,1,4
+1335,285,Melanocortin receptors,1,3
+1320,286,Melanocortin receptors,1,1
+1335,286,Melanocortin receptors,1,3
+1298,280,Melanin-concentrating hormone receptors,1,4
+1298,281,Melanin-concentrating hormone receptors,1,1
+1458,297,Motilin receptor,1,3
+4058,156,Class A Orphans with emerging pharmacology,1,1
+4057,157,Class A Orphans with emerging pharmacology,1,4
+6175,38,Bombesin receptors,1,3
+613,38,Bombesin receptors,1,0
+1468,298,Neuromedin U receptors,1,4
+1470,298,Neuromedin U receptors,1,2
+1468,299,Neuromedin U receptors,1,2
+1470,299,Neuromedin U receptors,1,2
+1499,303,Neuropeptide W/neuropeptide B receptors,1,1
+1500,303,Neuropeptide W/neuropeptide B receptors,1,1
+1502,303,Neuropeptide W/neuropeptide B receptors,1,1
+1495,303,Neuropeptide W/neuropeptide B receptors,1,1
+1496,303,Neuropeptide W/neuropeptide B receptors,1,1
+1501,304,Neuropeptide W/neuropeptide B receptors,1,1
+1502,304,Neuropeptide W/neuropeptide B receptors,1,3
+1495,304,Neuropeptide W/neuropeptide B receptors,1,0
+1496,304,Neuropeptide W/neuropeptide B receptors,1,3
+4016,300,Neuropeptide FF/neuropeptide AF receptors,1,4
+1479,300,Neuropeptide FF/neuropeptide AF receptors,1,0
+1479,301,Neuropeptide FF/neuropeptide AF receptors,1,3
+1490,302,Neuropeptide S receptor,1,1
+1504,305,Neuropeptide Y receptors,1,2
+1514,305,Neuropeptide Y receptors,1,1
+1517,306,Neuropeptide Y receptors,1,2
+1504,306,Neuropeptide Y receptors,1,3
+3627,306,Neuropeptide Y receptors,1,0
+1514,306,Neuropeptide Y receptors,1,0
+1504,307,Neuropeptide Y receptors,1,3
+1512,307,Neuropeptide Y receptors,1,4
+1514,307,Neuropeptide Y receptors,1,2
+1504,308,Neuropeptide Y receptors,1,2
+1512,308,Neuropeptide Y receptors,1,3
+1576,309,Neurotensin receptors,1,0
+1577,309,Neurotensin receptors,1,1
+1579,309,Neurotensin receptors,1,2
+1579,310,Neurotensin receptors,1,2
+1643,317,Opioid receptors,1,4
+1613,317,Opioid receptors,1,0
+1620,317,Opioid receptors,1,3
+1619,317,Opioid receptors,1,4
+1621,317,Opioid receptors,1,4
+1622,317,Opioid receptors,1,3
+1623,317,Opioid receptors,1,2
+1600,318,Opioid receptors,1,3
+1643,318,Opioid receptors,1,3
+1644,318,Opioid receptors,1,2
+1620,318,Opioid receptors,1,4
+1619,318,Opioid receptors,1,1
+1621,318,Opioid receptors,1,0
+1622,318,Opioid receptors,1,4
+1613,319,Opioid receptors,1,0
+1620,319,Opioid receptors,1,3
+1619,319,Opioid receptors,1,4
+1621,319,Opioid receptors,1,1
+1622,319,Opioid receptors,1,4
+1623,319,Opioid receptors,1,2
+2174,369,Vasopressin and oxytocin receptors,1,3
+2168,369,Vasopressin and oxytocin receptors,1,2
+3738,337,Prolactin-releasing peptide receptor,1,3
+1871,337,Prolactin-releasing peptide receptor,1,1
+1873,337,Prolactin-releasing peptide receptor,1,3
+1504,337,Prolactin-releasing peptide receptor,1,4
+1866,335,Prokineticin receptors,1,1
+1867,335,Prokineticin receptors,1,1
+1868,335,Prokineticin receptors,1,0
+1866,336,Prokineticin receptors,1,4
+1867,336,Prokineticin receptors,1,2
+1868,336,Prokineticin receptors,1,4
+1790,331,Parathyroid hormone receptors,1,1
+1815,331,Parathyroid hormone receptors,1,3
+1822,332,Parathyroid hormone receptors,1,1
+1790,332,Parathyroid hormone receptors,1,0
+5895,333,QRFP receptor,1,3
+3665,333,QRFP receptor,1,4
+1989,351,Relaxin family peptide receptors,1,3
+1988,351,Relaxin family peptide receptors,1,1
+1990,351,Relaxin family peptide receptors,1,4
+1995,352,Relaxin family peptide receptors,1,4
+1989,352,Relaxin family peptide receptors,1,4
+1988,352,Relaxin family peptide receptors,1,1
+1990,352,Relaxin family peptide receptors,1,0
+2000,353,Relaxin family peptide receptors,1,1
+1990,353,Relaxin family peptide receptors,1,2
+1997,353,Relaxin family peptide receptors,1,4
+2000,354,Relaxin family peptide receptors,1,3
+1990,354,Relaxin family peptide receptors,1,2
+1152,252,Glucagon receptor family,1,4
+3643,252,Glucagon receptor family,1,3
+2008,355,Somatostatin receptors,1,4
+2019,355,Somatostatin receptors,1,2
+2020,355,Somatostatin receptors,1,3
+2008,356,Somatostatin receptors,1,4
+2019,356,Somatostatin receptors,1,1
+2020,356,Somatostatin receptors,1,1
+2008,357,Somatostatin receptors,1,4
+2019,357,Somatostatin receptors,1,1
+2020,357,Somatostatin receptors,1,2
+2008,358,Somatostatin receptors,1,2
+2019,358,Somatostatin receptors,1,0
+2020,358,Somatostatin receptors,1,4
+2008,359,Somatostatin receptors,1,1
+2019,359,Somatostatin receptors,1,3
+2020,359,Somatostatin receptors,1,4
+2089,360,Tachykinin receptors,1,4
+2090,360,Tachykinin receptors,1,1
+3667,360,Tachykinin receptors,1,1
+2091,360,Tachykinin receptors,1,3
+2098,360,Tachykinin receptors,1,0
+2089,361,Tachykinin receptors,1,2
+2090,361,Tachykinin receptors,1,2
+2098,361,Tachykinin receptors,1,3
+2089,362,Tachykinin receptors,1,4
+2090,362,Tachykinin receptors,1,0
+2098,362,Tachykinin receptors,1,4
+3920,255,Glycoprotein hormone receptors,1,4
+2156,365,Urotensin receptor,1,0
+2153,365,Urotensin receptor,1,0
+2270,371,VIP and PACAP receptors,1,1
+2257,371,VIP and PACAP receptors,1,4
+2258,371,VIP and PACAP receptors,1,0
+2274,371,VIP and PACAP receptors,1,2
+1152,371,VIP and PACAP receptors,1,4
+2257,372,VIP and PACAP receptors,1,2
+2258,372,VIP and PACAP receptors,1,4
+1152,372,VIP and PACAP receptors,1,3
+3647,75,Chemokine receptors,1,2
+4370,75,Chemokine receptors,1,3
+3649,79,Chemerin receptors,0,3
+845,115,Class A Orphans with emerging pharmacology,0,2
+1288,322,Orexin receptors,0,1
+2019,149,"LGR4, LGR5, LGR6",0,0
+919,71,Chemokine receptors,0,3
+3700,104,Class A Orphans with emerging pharmacology,0,4
+756,156,Class A Orphans with emerging pharmacology,0,4
+2504,359,Somatostatin receptors,0,3
+912,358,Somatostatin receptors,0,1
+2008,369,Vasopressin and oxytocin receptors,0,0
+2098,222,Formylpeptide receptors,0,1
+1026,77,Cholecystokinin receptors,0,1
+606,245,Galanin receptors,0,3
+6178,38,Bombesin receptors,0,1
+8532,368,Vasopressin and oxytocin receptors,0,0
+2089,66,Chemokine receptors,0,0
+2258,213,Corticotropin-releasing factor receptors,0,4
+817,281,Melanin-concentrating hormone receptors,0,1
+5527,243,Galanin receptors,0,3
+2274,243,Galanin receptors,0,2
+2000,39,Bombesin receptors,0,0
+3645,247,Glucagon receptor family,0,3
+1283,299,Neuromedin U receptors,0,3
+1162,360,Tachykinin receptors,0,3
+808,359,Somatostatin receptors,0,0
+6175,253,Glycoprotein hormone receptors,0,2
+639,44,Calcitonin receptors,0,4
+606,354,Relaxin family peptide receptors,0,1
+2019,301,Neuropeptide FF/neuropeptide AF receptors,0,3
+613,147,"LGR4, LGR5, LGR6",0,2
+798,337,Prolactin-releasing peptide receptor,0,1
+599,49,Calcitonin receptors,0,2
+1162,315,Chemokine receptors,0,3
+4370,35,Angiotensin receptors,0,3
+771,36,Apelin receptor,0,4
+836,310,Neurotensin receptors,0,0
+6067,69,Chemokine receptors,0,2
+1622,220,Endothelin receptors,0,2
+4057,74,Chemokine receptors,0,2
+1644,310,Neurotensin receptors,0,3
+810,60,Chemokine receptors,0,0
+3649,50,Calcitonin receptors,0,1
+770,251,Glucagon receptor family,0,2
+2257,3,5-Hydroxytryptamine receptors,0,2
+921,302,Neuropeptide S receptor,0,4
+2090,65,Chemokine receptors,0,1
+821,357,Somatostatin receptors,0,2
+1613,304,Neuropeptide W/neuropeptide B receptors,0,4
+3738,266,Kisspeptin receptor,0,0
+819,255,Glycoprotein hormone receptors,0,3
+3648,303,Neuropeptide W/neuropeptide B receptors,0,3
+3646,284,Melanocortin receptors,0,4
+582,369,Vasopressin and oxytocin receptors,0,0
+2089,74,Chemokine receptors,0,4
+5895,354,Relaxin family peptide receptors,0,2
+1697,317,Opioid receptors,0,4
+770,322,Orexin receptors,0,1
+8532,148,"LGR4, LGR5, LGR6",0,3
+1283,62,Chemokine receptors,0,1
+1157,252,Glucagon receptor family,0,4
+1159,361,Tachykinin receptors,0,4
+8411,354,Relaxin family peptide receptors,0,3
+6175,41,Bradykinin receptors,0,4
+2153,33,Complement peptide receptors,0,1
+1152,35,Angiotensin receptors,0,4
+2257,310,Neurotensin receptors,0,0
+1822,356,Somatostatin receptors,0,3
+8411,337,Prolactin-releasing peptide receptor,0,0
+811,305,Neuropeptide Y receptors,0,4
+3643,299,Neuromedin U receptors,0,0
+1500,306,Neuropeptide Y receptors,0,1
+3729,305,Neuropeptide Y receptors,0,2
+3648,301,Neuropeptide FF/neuropeptide AF receptors,0,4
+855,42,Bradykinin receptors,0,0
+1643,280,Melanin-concentrating hormone receptors,0,4
+3729,321,Orexin receptors,0,0
+1468,297,Motilin receptor,0,3
+829,360,Tachykinin receptors,0,1
+835,80,Chemokine receptors,0,1
+2274,285,Melanocortin receptors,0,2
+817,368,Vasopressin and oxytocin receptors,0,3
+7930,359,Somatostatin receptors,0,4
+1333,362,Tachykinin receptors,0,0
+612,75,Chemokine receptors,0,0
+837,3,5-Hydroxytryptamine receptors,0,3
+1579,80,Chemokine receptors,0,0
+1822,306,Neuropeptide Y receptors,0,0
+2091,337,Prolactin-releasing peptide receptor,0,3
+798,255,Glycoprotein hormone receptors,0,0
+649,115,Class A Orphans with emerging pharmacology,0,4
+989,255,Glycoprotein hormone receptors,0,4
+2257,303,Neuropeptide W/neuropeptide B receptors,0,4
+2153,254,Glycoprotein hormone receptors,0,4
+3700,318,Opioid receptors,0,2
+821,45,Calcitonin receptors,0,0
+820,74,Chemokine receptors,0,4
+3627,223,Formylpeptide receptors,0,0
+3699,252,Glucagon receptor family,0,3
+1162,243,Galanin receptors,0,0
+836,45,Calcitonin receptors,0,4
+1501,70,Chemokine receptors,0,4
+1500,352,Relaxin family peptide receptors,0,4
+2008,219,Endothelin receptors,0,1
+1132,299,Neuromedin U receptors,0,1
+1619,248,Glucagon receptor family,0,2
+1517,310,Neurotensin receptors,0,0
+7930,44,Calcitonin receptors,0,2
+3643,46,Calcitonin receptors,0,4
+1871,247,Glucagon receptor family,0,4
+3562,223,Formylpeptide receptors,0,3
+811,41,Bradykinin receptors,0,3
+812,71,Chemokine receptors,0,0
+3935,337,Prolactin-releasing peptide receptor,0,1
+1500,315,Chemokine receptors,0,2
+2945,147,"LGR4, LGR5, LGR6",0,0
+759,33,Complement peptide receptors,0,1
+1613,49,Calcitonin receptors,0,1
+1283,104,Class A Orphans with emerging pharmacology,0,0
+1320,79,Chemerin receptors,0,4
+6175,62,Chemokine receptors,0,1
+1989,331,Parathyroid hormone receptors,0,4
+770,50,Calcitonin receptors,0,4
+639,286,Melanocortin receptors,0,0
+1512,302,Neuropeptide S receptor,0,1
+798,149,"LGR4, LGR5, LGR6",0,4
+1298,255,Glycoprotein hormone receptors,0,1
+828,32,Complement peptide receptors,0,1
+1320,33,Complement peptide receptors,0,0
+6178,82,Chemerin receptors,0,4
+1272,306,Neuropeptide Y receptors,0,2
+821,252,Glucagon receptor family,0,3
+811,299,Neuromedin U receptors,0,4
+811,361,Tachykinin receptors,0,4
+860,74,Chemokine receptors,0,4
+1495,358,Somatostatin receptors,0,1
+798,365,Urotensin receptor,0,4
+1643,148,"LGR4, LGR5, LGR6",0,1
+8410,303,Neuropeptide W/neuropeptide B receptors,0,0
+573,157,Class A Orphans with emerging pharmacology,0,0
+3647,286,Melanocortin receptors,0,3
+1490,333,QRFP receptor,0,0
+819,32,Complement peptide receptors,0,3
+1162,265,Histamine receptors,0,0
+3627,317,Opioid receptors,0,4
+990,362,Tachykinin receptors,0,3
+1622,78,Chemokine receptors,0,2
+3648,309,Neurotensin receptors,0,3
+2008,41,Bradykinin receptors,0,1
+3697,222,Formylpeptide receptors,0,4
+1613,299,Neuromedin U receptors,0,1
+1026,32,Complement peptide receptors,0,1
+3643,337,Prolactin-releasing peptide receptor,0,4
+1577,49,Calcitonin receptors,0,2
+820,358,Somatostatin receptors,0,4
+5895,353,Relaxin family peptide receptors,0,1
+2098,59,Chemokine receptors,0,2
+1822,60,Chemokine receptors,0,4
+6244,65,Chemokine receptors,0,4
+1031,255,Glycoprotein hormone receptors,0,1
+2168,41,Bradykinin receptors,0,0
+3643,3,5-Hydroxytryptamine receptors,0,1
+1285,249,Glucagon receptor family,0,1
+837,281,Melanin-concentrating hormone receptors,0,2
+8533,321,Orexin receptors,0,3
+1871,69,Chemokine receptors,0,0
+1495,156,Class A Orphans with emerging pharmacology,0,4
+1479,39,Bombesin receptors,0,1
+1458,148,"LGR4, LGR5, LGR6",0,0
+2091,72,Chemokine receptors,0,2
+990,358,Somatostatin receptors,0,3
+8533,303,Neuropeptide W/neuropeptide B receptors,0,0
+1600,256,Gonadotrophin-releasing hormone receptors,0,4
+9734,45,Calcitonin receptors,0,4
+1644,115,Class A Orphans with emerging pharmacology,0,4
+1576,369,Vasopressin and oxytocin receptors,0,2
+1140,265,Histamine receptors,0,2
+2091,353,Relaxin family peptide receptors,0,0
+772,309,Neurotensin receptors,0,0
+1871,80,Chemokine receptors,0,0
+3667,3,5-Hydroxytryptamine receptors,0,3
+771,305,Neuropeptide Y receptors,0,0
+829,248,Glucagon receptor family,0,2
+3558,254,Glycoprotein hormone receptors,0,2
+8526,156,Class A Orphans with emerging pharmacology,0,1
+9734,245,Galanin receptors,0,2
+2274,252,Glucagon receptor family,0,4
+8409,305,Neuropeptide Y receptors,0,1
+3640,74,Chemokine receptors,0,2
+3698,299,Neuromedin U receptors,0,1
+855,39,Bombesin receptors,0,3
+3643,66,Chemokine receptors,0,1
+1136,333,QRFP receptor,0,2
+771,249,Glucagon receptor family,0,3
+820,298,Neuromedin U receptors,0,2
+1140,65,Chemokine receptors,0,2
+861,317,Opioid receptors,0,3
+861,115,Class A Orphans with emerging pharmacology,0,4
+808,31,Complement peptide receptors,0,3
+2258,67,Chemokine receptors,0,4
+3697,63,Chemokine receptors,0,0
+2089,49,Calcitonin receptors,0,3
+756,322,Orexin receptors,0,3
+4058,234,Class Frizzled GPCRs,0,1
+817,39,Bombesin receptors,0,3
+1320,224,Formylpeptide receptors,0,2
+1468,82,Chemerin receptors,0,0
+3548,222,Formylpeptide receptors,0,1
+2274,297,Motilin receptor,0,3
+1619,212,Corticotropin-releasing factor receptors,0,1
+9734,255,Glycoprotein hormone receptors,0,1
+8533,82,Chemerin receptors,0,2
+1644,265,Histamine receptors,0,4
+861,250,Glucagon receptor family,0,3
+770,247,Glucagon receptor family,0,1
+1044,34,Angiotensin receptors,0,0
+1644,64,Chemokine receptors,0,0
+1320,243,Galanin receptors,0,2
+2020,305,Neuropeptide Y receptors,0,3
+755,147,"LGR4, LGR5, LGR6",0,3
+861,368,Vasopressin and oxytocin receptors,0,4
+599,358,Somatostatin receptors,0,4
+797,65,Chemokine receptors,0,4
+836,35,Angiotensin receptors,0,3
+757,360,Tachykinin receptors,0,4
+797,371,VIP and PACAP receptors,0,1
+864,68,Chemokine receptors,0,2
+1164,321,Orexin receptors,0,4
+1514,317,Opioid receptors,0,3
+812,68,Chemokine receptors,0,2
+1458,255,Glycoprotein hormone receptors,0,2
+1490,64,Chemokine receptors,0,3
+1335,243,Galanin receptors,0,4
+1621,372,VIP and PACAP receptors,0,3
+606,65,Chemokine receptors,0,4
+798,223,Formylpeptide receptors,0,3
+855,369,Vasopressin and oxytocin receptors,0,3
+6178,41,Bradykinin receptors,0,0
+855,302,Neuropeptide S receptor,0,0
+1988,103,Class A Orphans with emerging pharmacology,0,0
+1623,149,"LGR4, LGR5, LGR6",0,4
+829,157,Class A Orphans with emerging pharmacology,0,0
+3935,336,Prokineticin receptors,0,2
+3556,354,Relaxin family peptide receptors,0,0
+8533,78,Chemokine receptors,0,2
+1140,82,Chemerin receptors,0,2
+1815,265,Histamine receptors,0,2
+1613,354,Relaxin family peptide receptors,0,4
+820,34,Angiotensin receptors,0,0
+1512,245,Galanin receptors,0,0
+827,244,Galanin receptors,0,2
+1990,282,Melanocortin receptors,0,1
+8526,307,Neuropeptide Y receptors,0,1
+810,75,Chemokine receptors,0,0
+2156,306,Neuropeptide Y receptors,0,4
+2008,223,Formylpeptide receptors,0,1
+3547,265,Histamine receptors,0,4
+1284,157,Class A Orphans with emerging pharmacology,0,1
+2098,72,Chemokine receptors,0,3
+3646,308,Neuropeptide Y receptors,0,3
+928,371,VIP and PACAP receptors,0,0
+1867,36,Apelin receptor,0,4
+810,317,Opioid receptors,0,3
+2019,64,Chemokine receptors,0,4
+1822,305,Neuropeptide Y receptors,0,3
+3665,255,Glycoprotein hormone receptors,0,1
+798,335,Prokineticin receptors,0,0
+757,365,Urotensin receptor,0,0
+573,337,Prolactin-releasing peptide receptor,0,4
+1997,297,Motilin receptor,0,4
+683,250,Glucagon receptor family,0,4
+599,304,Neuropeptide W/neuropeptide B receptors,0,3
+2258,306,Neuropeptide Y receptors,0,4
+1867,148,"LGR4, LGR5, LGR6",0,3
+2945,42,Bradykinin receptors,0,4
+827,79,Chemerin receptors,0,2
+755,42,Bradykinin receptors,0,4
+776,61,Chemokine receptors,0,2
+928,245,Galanin receptors,0,2
+11417,369,Vasopressin and oxytocin receptors,0,3
+6894,358,Somatostatin receptors,0,2
+4358,219,Endothelin receptors,0,0
+1997,76,Cholecystokinin receptors,0,0
+1620,357,Somatostatin receptors,0,2
+860,61,Chemokine receptors,0,4
+989,148,"LGR4, LGR5, LGR6",0,2
+4016,352,Relaxin family peptide receptors,0,1
+1504,335,Prokineticin receptors,0,1
+6178,254,Glycoprotein hormone receptors,0,1
+6067,351,Relaxin family peptide receptors,0,4
+860,337,Prolactin-releasing peptide receptor,0,2
+3544,243,Galanin receptors,0,0
+1132,331,Parathyroid hormone receptors,0,0
+1512,253,Glycoprotein hormone receptors,0,2
+1822,46,Calcitonin receptors,0,3
+1502,157,Class A Orphans with emerging pharmacology,0,4
+644,255,Glycoprotein hormone receptors,0,2
+1283,248,Glucagon receptor family,0,2
+1136,148,"LGR4, LGR5, LGR6",0,1
+5895,77,Cholecystokinin receptors,0,0
+1873,104,Class A Orphans with emerging pharmacology,0,2
+1031,353,Relaxin family peptide receptors,0,4
+1501,358,Somatostatin receptors,0,1
+582,353,Relaxin family peptide receptors,0,0
+8411,219,Endothelin receptors,0,0
+1514,370,VIP and PACAP receptors,0,4
+989,249,Glucagon receptor family,0,0
+2174,43,Calcitonin receptors,0,3
+682,64,Chemokine receptors,0,4
+3556,147,"LGR4, LGR5, LGR6",0,1
+4370,77,Cholecystokinin receptors,0,2
+798,307,Neuropeptide Y receptors,0,0
+769,44,Calcitonin receptors,0,0
+612,315,Chemokine receptors,0,4
+3700,68,Chemokine receptors,0,0
+3645,266,Kisspeptin receptor,0,3
+4370,280,Melanin-concentrating hormone receptors,0,2
+1047,245,Galanin receptors,0,2
+827,147,"LGR4, LGR5, LGR6",0,3
+1622,213,Corticotropin-releasing factor receptors,0,4
+639,309,Neurotensin receptors,0,3
+1468,252,Glucagon receptor family,0,3
+1613,213,Corticotropin-releasing factor receptors,0,3
+1004,358,Somatostatin receptors,0,4
+3729,298,Neuromedin U receptors,0,1
+606,266,Kisspeptin receptor,0,2
+757,255,Glycoprotein hormone receptors,0,4
+753,315,Chemokine receptors,0,1
+3549,46,Calcitonin receptors,0,0
+835,58,Chemokine receptors,0,4
+1132,42,Bradykinin receptors,0,2
+835,73,Chemokine receptors,0,0
+8408,362,Tachykinin receptors,0,0
+1285,285,Melanocortin receptors,0,4
+2089,297,Motilin receptor,0,0
+1047,369,Vasopressin and oxytocin receptors,0,2
+1866,65,Chemokine receptors,0,4
+829,252,Glucagon receptor family,0,4
+912,365,Urotensin receptor,0,1
+3542,250,Glucagon receptor family,0,0
+772,300,Neuropeptide FF/neuropeptide AF receptors,0,4
+3558,74,Chemokine receptors,0,2
+6244,308,Neuropeptide Y receptors,0,4
+1822,219,Endothelin receptors,0,2
+1272,300,Neuropeptide FF/neuropeptide AF receptors,0,0
+2258,369,Vasopressin and oxytocin receptors,0,0
+649,354,Relaxin family peptide receptors,0,0
+1699,31,Complement peptide receptors,0,2
+864,322,Orexin receptors,0,0
+811,48,Calcitonin receptors,0,4
+864,286,Melanocortin receptors,0,0
+769,249,Glucagon receptor family,0,1
+1873,44,Calcitonin receptors,0,0
+649,44,Calcitonin receptors,0,4
+1495,359,Somatostatin receptors,0,2
+757,310,Neurotensin receptors,0,0
+2019,223,Formylpeptide receptors,0,3
+817,76,Cholecystokinin receptors,0,2
+3700,336,Prokineticin receptors,0,1
+1136,234,Class Frizzled GPCRs,0,0
+10221,31,Complement peptide receptors,0,1
+1504,58,Chemokine receptors,0,1
+2270,64,Chemokine receptors,0,4
+6242,301,Neuropeptide FF/neuropeptide AF receptors,0,0
+837,362,Tachykinin receptors,0,3
+2019,318,Opioid receptors,0,3
+2098,45,Calcitonin receptors,0,2
+1868,300,Neuropeptide FF/neuropeptide AF receptors,0,2
+6067,66,Chemokine receptors,0,2
+770,34,Angiotensin receptors,0,4
+1496,38,Bombesin receptors,0,1
+798,354,Relaxin family peptide receptors,0,1
+798,104,Class A Orphans with emerging pharmacology,0,3
+912,315,Chemokine receptors,0,3
+2168,302,Neuropeptide S receptor,0,1
+3645,39,Bombesin receptors,0,1
+1579,149,"LGR4, LGR5, LGR6",0,4
+574,104,Class A Orphans with emerging pharmacology,0,0
+912,366,Vasopressin and oxytocin receptors,0,0
+2270,333,QRFP receptor,0,1
+606,60,Chemokine receptors,0,3
+828,67,Chemokine receptors,0,3
+3592,251,Glucagon receptor family,0,0
+1613,82,Chemerin receptors,0,1
+1699,64,Chemokine receptors,0,0
+2089,76,Cholecystokinin receptors,0,2
+1622,34,Angiotensin receptors,0,0
+573,49,Calcitonin receptors,0,4
+3665,247,Glucagon receptor family,0,3
+758,352,Relaxin family peptide receptors,0,4
+1099,66,Chemokine receptors,0,2
+7930,281,Melanin-concentrating hormone receptors,0,4
+573,212,Corticotropin-releasing factor receptors,0,4
+830,302,Neuropeptide S receptor,0,2
+3697,358,Somatostatin receptors,0,1
+3547,148,"LGR4, LGR5, LGR6",0,0
+2091,369,Vasopressin and oxytocin receptors,0,0
+3556,76,Cholecystokinin receptors,0,1
+2019,319,Opioid receptors,0,3
+4370,157,Class A Orphans with emerging pharmacology,0,2
+2156,282,Melanocortin receptors,0,0
+757,354,Relaxin family peptide receptors,0,3
+1495,220,Endothelin receptors,0,2
+2153,282,Melanocortin receptors,0,1
+1517,305,Neuropeptide Y receptors,0,2
+757,147,"LGR4, LGR5, LGR6",0,3
+2168,284,Melanocortin receptors,0,3
+612,224,Formylpeptide receptors,0,3
+1044,82,Chemerin receptors,0,2
+836,76,Cholecystokinin receptors,0,1
+681,360,Tachykinin receptors,0,4
+1622,335,Prokineticin receptors,0,3
+3566,335,Prokineticin receptors,0,0
+828,148,"LGR4, LGR5, LGR6",0,2
+1621,305,Neuropeptide Y receptors,0,0
+3935,63,Chemokine receptors,0,4
+6242,355,Somatostatin receptors,0,3
+3566,67,Chemokine receptors,0,3
+574,357,Somatostatin receptors,0,3
+644,298,Neuromedin U receptors,0,1
+1815,31,Complement peptide receptors,0,2
+2174,41,Bradykinin receptors,0,2
+585,43,Calcitonin receptors,0,1
+585,333,QRFP receptor,0,4
+856,333,QRFP receptor,0,1
+1501,68,Chemokine receptors,0,0
+812,305,Neuropeptide Y receptors,0,4
+856,356,Somatostatin receptors,0,1
+8533,310,Neurotensin receptors,0,2
+687,75,Chemokine receptors,0,4
+1989,63,Chemokine receptors,0,2
+1989,304,Neuropeptide W/neuropeptide B receptors,0,2
+1031,306,Neuropeptide Y receptors,0,4
+650,157,Class A Orphans with emerging pharmacology,0,4
+8526,78,Chemokine receptors,0,0
+574,302,Neuropeptide S receptor,0,1
+1514,39,Bombesin receptors,0,1
+1697,246,Ghrelin receptor,0,3
+8531,369,Vasopressin and oxytocin receptors,0,4
+1458,247,Glucagon receptor family,0,2
+855,67,Chemokine receptors,0,0
+6067,354,Relaxin family peptide receptors,0,1
+1989,280,Melanin-concentrating hormone receptors,0,1
+835,256,Gonadotrophin-releasing hormone receptors,0,2
+756,298,Neuromedin U receptors,0,4
+3552,80,Chemokine receptors,0,3
+817,360,Tachykinin receptors,0,2
+8532,41,Bradykinin receptors,0,0
+821,360,Tachykinin receptors,0,1
+759,318,Opioid receptors,0,4
+1577,246,Ghrelin receptor,0,0
+2168,44,Calcitonin receptors,0,1
+830,370,VIP and PACAP receptors,0,3
+1140,370,VIP and PACAP receptors,0,3
+990,370,VIP and PACAP receptors,0,2
+836,64,Chemokine receptors,0,3
+855,372,VIP and PACAP receptors,0,3
+1822,212,Corticotropin-releasing factor receptors,0,4
+10221,351,Relaxin family peptide receptors,0,4
+682,351,Relaxin family peptide receptors,0,2
+1284,38,Bombesin receptors,0,3
+582,302,Neuropeptide S receptor,0,2
+8533,366,Vasopressin and oxytocin receptors,0,2
+9734,359,Somatostatin receptors,0,2
+3649,156,Class A Orphans with emerging pharmacology,0,3
+845,60,Chemokine receptors,0,4
+1995,366,Vasopressin and oxytocin receptors,0,2
+682,250,Glucagon receptor family,0,1
+1004,234,Class Frizzled GPCRs,0,1
+3592,59,Chemokine receptors,0,3
+1470,370,VIP and PACAP receptors,0,3
+6178,50,Calcitonin receptors,0,4
+3592,44,Calcitonin receptors,0,4
+1157,369,Vasopressin and oxytocin receptors,0,2
+3648,250,Glucagon receptor family,0,1
+8526,254,Glycoprotein hormone receptors,0,2
+599,301,Neuropeptide FF/neuropeptide AF receptors,0,2
+1815,50,Calcitonin receptors,0,4
+756,220,Endothelin receptors,0,2
+3648,356,Somatostatin receptors,0,2
+8526,43,Calcitonin receptors,0,4
+1790,300,Neuropeptide FF/neuropeptide AF receptors,0,1
+8410,79,Chemerin receptors,0,0
+797,359,Somatostatin receptors,0,3
+684,70,Chemokine receptors,0,3
+754,50,Calcitonin receptors,0,0
+613,222,Formylpeptide receptors,0,4
+2008,353,Relaxin family peptide receptors,0,4
+775,370,VIP and PACAP receptors,0,2
+860,60,Chemokine receptors,0,0
+1613,251,Glucagon receptor family,0,0
+1988,355,Somatostatin receptors,0,2
+1333,41,Bradykinin receptors,0,1
+3645,32,Complement peptide receptors,0,1
+573,336,Prokineticin receptors,0,1
+4058,309,Neurotensin receptors,0,2
+1577,32,Complement peptide receptors,0,4
+1822,80,Chemokine receptors,0,3
+1517,281,Melanin-concentrating hormone receptors,0,3
+3698,79,Chemerin receptors,0,4
+830,39,Bombesin receptors,0,3
+1577,3,5-Hydroxytryptamine receptors,0,0
+1997,39,Bombesin receptors,0,2
+2153,115,Class A Orphans with emerging pharmacology,0,1
+2153,212,Corticotropin-releasing factor receptors,0,3
+8410,332,Parathyroid hormone receptors,0,3
+573,361,Tachykinin receptors,0,0
+819,336,Prokineticin receptors,0,4
+808,315,Chemokine receptors,0,4
+3665,149,"LGR4, LGR5, LGR6",0,1
+1600,248,Glucagon receptor family,0,2
+919,304,Neuropeptide W/neuropeptide B receptors,0,4
+2098,281,Melanin-concentrating hormone receptors,0,0
+821,70,Chemokine receptors,0,0
+2000,31,Complement peptide receptors,0,1
+3667,355,Somatostatin receptors,0,4
+4016,45,Calcitonin receptors,0,3
+1162,78,Chemokine receptors,0,0
+3935,247,Glucagon receptor family,0,4
+1143,115,Class A Orphans with emerging pharmacology,0,0
+753,305,Neuropeptide Y receptors,0,0
+3667,250,Glucagon receptor family,0,2
+820,44,Calcitonin receptors,0,0
+1990,103,Class A Orphans with emerging pharmacology,0,3
+4370,298,Neuromedin U receptors,0,4
+756,147,"LGR4, LGR5, LGR6",0,0
+1047,302,Neuropeptide S receptor,0,1
+1160,252,Glucagon receptor family,0,3
+1600,72,Chemokine receptors,0,4
+1288,309,Neurotensin receptors,0,4
+1468,255,Glycoprotein hormone receptors,0,1
+1496,297,Motilin receptor,0,3
+2020,286,Melanocortin receptors,0,1
+2174,286,Melanocortin receptors,0,1
+1500,249,Glucagon receptor family,0,0
+2000,337,Prolactin-releasing peptide receptor,0,1
+861,307,Neuropeptide Y receptors,0,3
+1697,61,Chemokine receptors,0,1
+1136,368,Vasopressin and oxytocin receptors,0,3
+3700,70,Chemokine receptors,0,1
+1997,147,"LGR4, LGR5, LGR6",0,0
+612,213,Corticotropin-releasing factor receptors,0,2
+4358,365,Urotensin receptor,0,4
+830,359,Somatostatin receptors,0,1
+1468,147,"LGR4, LGR5, LGR6",0,0
+6894,360,Tachykinin receptors,0,1
+835,333,QRFP receptor,0,2
+1320,69,Chemokine receptors,0,0
+1623,73,Chemokine receptors,0,3
+845,65,Chemokine receptors,0,4
+8530,297,Motilin receptor,0,4
+1026,249,Glucagon receptor family,0,4
+1132,212,Corticotropin-releasing factor receptors,0,3
+1047,332,Parathyroid hormone receptors,0,1
+755,224,Formylpeptide receptors,0,2
+1285,297,Motilin receptor,0,2
+808,256,Gonadotrophin-releasing hormone receptors,0,2
+3558,59,Chemokine receptors,0,3
+6178,298,Neuromedin U receptors,0,4
+6244,32,Complement peptide receptors,0,2
+1320,306,Neuropeptide Y receptors,0,3
+2945,34,Angiotensin receptors,0,0
+3640,306,Neuropeptide Y receptors,0,3
+1026,66,Chemokine receptors,0,4
+772,77,Cholecystokinin receptors,0,3
+4370,304,Neuropeptide W/neuropeptide B receptors,0,4
+797,254,Glycoprotein hormone receptors,0,0
+1501,333,QRFP receptor,0,1
+819,70,Chemokine receptors,0,3
+8525,115,Class A Orphans with emerging pharmacology,0,3
+759,243,Galanin receptors,0,4
+1479,79,Chemerin receptors,0,4
+3648,299,Neuromedin U receptors,0,3
+1026,49,Calcitonin receptors,0,0
+1613,266,Kisspeptin receptor,0,0
+1044,282,Melanocortin receptors,0,2
+9734,318,Opioid receptors,0,4
+3697,319,Opioid receptors,0,1
+1866,352,Relaxin family peptide receptors,0,2
+1644,61,Chemokine receptors,0,2
+3552,68,Chemokine receptors,0,3
+682,361,Tachykinin receptors,0,4
+606,352,Relaxin family peptide receptors,0,3
+829,34,Angiotensin receptors,0,2
+10221,299,Neuromedin U receptors,0,3
+1822,76,Cholecystokinin receptors,0,3
+2168,65,Chemokine receptors,0,1
+820,103,Class A Orphans with emerging pharmacology,0,4
+1298,220,Endothelin receptors,0,1
+1288,79,Chemerin receptors,0,4
+1622,284,Melanocortin receptors,0,2
+6244,246,Ghrelin receptor,0,1
+1988,317,Opioid receptors,0,0
+1160,68,Chemokine receptors,0,0
+2270,317,Opioid receptors,0,2
+8408,358,Somatostatin receptors,0,1
+2257,366,Vasopressin and oxytocin receptors,0,4
+921,149,"LGR4, LGR5, LGR6",0,0
+1143,365,Urotensin receptor,0,2
+835,361,Tachykinin receptors,0,1
+1504,62,Chemokine receptors,0,1
+1502,67,Chemokine receptors,0,0
+829,246,Ghrelin receptor,0,4
+817,250,Glucagon receptor family,0,2
+4016,309,Neurotensin receptors,0,2
+808,355,Somatostatin receptors,0,3
+1871,358,Somatostatin receptors,0,2
+1335,44,Calcitonin receptors,0,0
+8531,365,Urotensin receptor,0,1
+605,359,Somatostatin receptors,0,3
+812,303,Neuropeptide W/neuropeptide B receptors,0,3
+6175,63,Chemokine receptors,0,3
+2258,103,Class A Orphans with emerging pharmacology,0,0
+650,115,Class A Orphans with emerging pharmacology,0,2
+2504,256,Gonadotrophin-releasing hormone receptors,0,3
+1283,39,Bombesin receptors,0,1
+1152,309,Neurotensin receptors,0,1
+819,306,Neuropeptide Y receptors,0,3
+808,148,"LGR4, LGR5, LGR6",0,2
+4058,243,Galanin receptors,0,4
+912,222,Formylpeptide receptors,0,3
+1619,78,Chemokine receptors,0,2
+1512,306,Neuropeptide Y receptors,0,4
+3645,265,Histamine receptors,0,0
+10221,248,Glucagon receptor family,0,4
+1867,79,Chemerin receptors,0,1
+3649,65,Chemokine receptors,0,3
+1512,309,Neurotensin receptors,0,3
+756,336,Prokineticin receptors,0,2
+1004,33,Complement peptide receptors,0,3
+612,71,Chemokine receptors,0,0
+1160,42,Bradykinin receptors,0,3
+1600,39,Bombesin receptors,0,1
+3665,299,Neuromedin U receptors,0,0
+682,280,Melanin-concentrating hormone receptors,0,3
+860,58,Chemokine receptors,0,1
+1790,337,Prolactin-releasing peptide receptor,0,0
+3640,103,Class A Orphans with emerging pharmacology,0,3
+864,336,Prokineticin receptors,0,4
+3566,72,Chemokine receptors,0,1
+3552,59,Chemokine receptors,0,4
+8410,36,Apelin receptor,0,1
+755,249,Glucagon receptor family,0,1
+1499,74,Chemokine receptors,0,4
+3649,281,Melanin-concentrating hormone receptors,0,0
+1285,356,Somatostatin receptors,0,2
+644,253,Glycoprotein hormone receptors,0,0
+8526,359,Somatostatin receptors,0,3
+1496,61,Chemokine receptors,0,0
+1152,245,Galanin receptors,0,0
+605,368,Vasopressin and oxytocin receptors,0,3
+771,310,Neurotensin receptors,0,4
+1499,79,Chemerin receptors,0,4
+845,69,Chemokine receptors,0,3
+1047,251,Glucagon receptor family,0,1
+829,39,Bombesin receptors,0,0
+864,60,Chemokine receptors,0,2
+2153,148,"LGR4, LGR5, LGR6",0,3
+912,281,Melanin-concentrating hormone receptors,0,2
+3738,309,Neurotensin receptors,0,0
+755,247,Glucagon receptor family,0,3
+769,302,Neuropeptide S receptor,0,1
+1600,335,Prokineticin receptors,0,2
+682,58,Chemokine receptors,0,4
+606,298,Neuromedin U receptors,0,4
+8410,321,Orexin receptors,0,4
+1004,245,Galanin receptors,0,4
+606,74,Chemokine receptors,0,3
+1989,50,Calcitonin receptors,0,2
+1132,71,Chemokine receptors,0,3
+817,59,Chemokine receptors,0,2
+3566,39,Bombesin receptors,0,2
+1499,62,Chemokine receptors,0,1
+1577,38,Bombesin receptors,0,4
+2168,243,Galanin receptors,0,3
+649,73,Chemokine receptors,0,0
+7930,220,Endothelin receptors,0,1
+613,372,VIP and PACAP receptors,0,0
+856,219,Endothelin receptors,0,1
+772,266,Kisspeptin receptor,0,2
+1997,244,Galanin receptors,0,3
+3592,212,Corticotropin-releasing factor receptors,0,1
+8530,299,Neuromedin U receptors,0,3
+573,234,Class Frizzled GPCRs,0,3
+1044,72,Chemokine receptors,0,1
+829,147,"LGR4, LGR5, LGR6",0,2
+2504,73,Chemokine receptors,0,2
+3697,266,Kisspeptin receptor,0,1
+1600,220,Endothelin receptors,0,2
+1512,74,Chemokine receptors,0,0
+6175,355,Somatostatin receptors,0,4
+5368,65,Chemokine receptors,0,0
+8524,72,Chemokine receptors,0,0
+5368,68,Chemokine receptors,0,4
+6178,33,Complement peptide receptors,0,0
+828,370,VIP and PACAP receptors,0,2
+1157,64,Chemokine receptors,0,0
+1815,224,Formylpeptide receptors,0,1
+928,66,Chemokine receptors,0,2
+2019,72,Chemokine receptors,0,2
+829,308,Neuropeptide Y receptors,0,4
+1600,223,Formylpeptide receptors,0,0
+990,299,Neuromedin U receptors,0,3
+2274,76,Cholecystokinin receptors,0,0
+1623,336,Prokineticin receptors,0,3
+1272,282,Melanocortin receptors,0,0
+1577,357,Somatostatin receptors,0,1
+1288,74,Chemokine receptors,0,1
+3647,147,"LGR4, LGR5, LGR6",0,0
+829,362,Tachykinin receptors,0,0
+753,308,Neuropeptide Y receptors,0,2
+646,302,Neuropeptide S receptor,0,2
+808,42,Bradykinin receptors,0,4
+1458,357,Somatostatin receptors,0,0
+1873,331,Parathyroid hormone receptors,0,3
+2168,82,Chemerin receptors,0,0
+798,75,Chemokine receptors,0,3
+1790,223,Formylpeptide receptors,0,3
+8411,31,Complement peptide receptors,0,1
+3699,62,Chemokine receptors,0,3
+8531,254,Glycoprotein hormone receptors,0,3
+2090,309,Neurotensin receptors,0,3
+137,366,Vasopressin and oxytocin receptors,0,1
+650,298,Neuromedin U receptors,0,3
+1577,73,Chemokine receptors,0,3
+811,222,Formylpeptide receptors,0,1
+928,80,Chemokine receptors,0,2
+1995,250,Glucagon receptor family,0,1
+3700,38,Bombesin receptors,0,1
+8408,252,Glucagon receptor family,0,1
+3728,148,"LGR4, LGR5, LGR6",0,0
+4058,308,Neuropeptide Y receptors,0,1
+1320,66,Chemokine receptors,0,4
+2258,31,Complement peptide receptors,0,2
+1458,74,Chemokine receptors,0,4
+8533,369,Vasopressin and oxytocin receptors,0,1
+828,35,Angiotensin receptors,0,2
+775,219,Endothelin receptors,0,1
+755,74,Chemokine receptors,0,1
+582,297,Motilin receptor,0,4
+646,247,Glucagon receptor family,0,4
+6244,372,VIP and PACAP receptors,0,2
+613,32,Complement peptide receptors,0,2
+811,249,Glucagon receptor family,0,3
+989,69,Chemokine receptors,0,2
+3562,73,Chemokine receptors,0,0
+3562,58,Chemokine receptors,0,0
+599,319,Opioid receptors,0,4
+989,300,Neuropeptide FF/neuropeptide AF receptors,0,1
+1333,337,Prolactin-releasing peptide receptor,0,2
+3648,280,Melanin-concentrating hormone receptors,0,1
+4370,360,Tachykinin receptors,0,3
+3920,115,Class A Orphans with emerging pharmacology,0,1
+1159,77,Cholecystokinin receptors,0,3
+6067,303,Neuropeptide W/neuropeptide B receptors,0,0
+1031,352,Relaxin family peptide receptors,0,1
+8409,31,Complement peptide receptors,0,3
+928,321,Orexin receptors,0,1
+2270,355,Somatostatin receptors,0,4
+1140,247,Glucagon receptor family,0,3
+3640,32,Complement peptide receptors,0,3
+5895,82,Chemerin receptors,0,3
+3728,82,Chemerin receptors,0,0
+2153,50,Calcitonin receptors,0,4
+3544,234,Class Frizzled GPCRs,0,4
+837,79,Chemerin receptors,0,4
+1620,68,Chemokine receptors,0,2
+2098,306,Neuropeptide Y receptors,0,4
+928,156,Class A Orphans with emerging pharmacology,0,4
+585,315,Chemokine receptors,0,2
+1989,222,Formylpeptide receptors,0,2
+8533,64,Chemokine receptors,0,2
+2258,361,Tachykinin receptors,0,2
+755,365,Urotensin receptor,0,2
+1502,219,Endothelin receptors,0,4
+6175,46,Calcitonin receptors,0,3
+6894,280,Melanin-concentrating hormone receptors,0,4
+2019,308,Neuropeptide Y receptors,0,2
+3627,76,Cholecystokinin receptors,0,2
+5527,281,Melanin-concentrating hormone receptors,0,0
+1490,297,Motilin receptor,0,2
+1622,356,Somatostatin receptors,0,4
+864,358,Somatostatin receptors,0,0
+2098,359,Somatostatin receptors,0,0
+3920,357,Somatostatin receptors,0,3
+1699,247,Glucagon receptor family,0,2
+759,285,Melanocortin receptors,0,0
+2174,223,Formylpeptide receptors,0,2
+3544,360,Tachykinin receptors,0,2
+10221,317,Opioid receptors,0,4
+1496,73,Chemokine receptors,0,2
+1047,222,Formylpeptide receptors,0,2
+1140,371,VIP and PACAP receptors,0,0
+1132,66,Chemokine receptors,0,4
+1699,368,Vasopressin and oxytocin receptors,0,3
+855,297,Motilin receptor,0,3
+4016,250,Glucagon receptor family,0,3
+828,300,Neuropeptide FF/neuropeptide AF receptors,0,0
+1514,41,Bradykinin receptors,0,1
+1502,371,VIP and PACAP receptors,0,2
+687,317,Opioid receptors,0,2
+585,220,Endothelin receptors,0,4
+599,357,Somatostatin receptors,0,3
+811,367,Vasopressin and oxytocin receptors,0,2
+2504,356,Somatostatin receptors,0,3
+1490,286,Melanocortin receptors,0,3
+1644,299,Neuromedin U receptors,0,2
+1815,64,Chemokine receptors,0,3
+856,34,Angiotensin receptors,0,0
+683,282,Melanocortin receptors,0,1
+1577,65,Chemokine receptors,0,0
+8533,300,Neuropeptide FF/neuropeptide AF receptors,0,2
+836,78,Chemokine receptors,0,4
+646,234,Class Frizzled GPCRs,0,3
+1152,220,Endothelin receptors,0,3
+3738,285,Melanocortin receptors,0,3
+1335,299,Neuromedin U receptors,0,3
+684,302,Neuropeptide S receptor,0,0
+1333,250,Glucagon receptor family,0,0
+6067,31,Complement peptide receptors,0,4
+1499,305,Neuropeptide Y receptors,0,0
+1164,359,Somatostatin receptors,0,3
+772,286,Melanocortin receptors,0,2
+3548,46,Calcitonin receptors,0,1
+2090,256,Gonadotrophin-releasing hormone receptors,0,4
+1989,371,VIP and PACAP receptors,0,0
+808,64,Chemokine receptors,0,0
+3592,38,Bombesin receptors,0,3
+1995,309,Neurotensin receptors,0,3
+3728,147,"LGR4, LGR5, LGR6",0,3
+3729,224,Formylpeptide receptors,0,2
+644,103,Class A Orphans with emerging pharmacology,0,1
+1697,60,Chemokine receptors,0,1
+797,331,Parathyroid hormone receptors,0,2
+1644,32,Complement peptide receptors,0,0
+3544,331,Parathyroid hormone receptors,0,0
+6175,305,Neuropeptide Y receptors,0,4
+646,361,Tachykinin receptors,0,2
+1989,41,Bradykinin receptors,0,1
+755,335,Prokineticin receptors,0,2
+827,44,Calcitonin receptors,0,4
+612,115,Class A Orphans with emerging pharmacology,0,2
+1997,266,Kisspeptin receptor,0,4
+1644,224,Formylpeptide receptors,0,1
+797,212,Corticotropin-releasing factor receptors,0,2
+3558,73,Chemokine receptors,0,2
+812,3,5-Hydroxytryptamine receptors,0,3
+1004,285,Melanocortin receptors,0,4
+1501,252,Glucagon receptor family,0,3
+830,74,Chemokine receptors,0,4
+928,74,Chemokine receptors,0,4
+4016,147,"LGR4, LGR5, LGR6",0,0
+1622,321,Orexin receptors,0,2
+2090,252,Glucagon receptor family,0,2
+574,285,Melanocortin receptors,0,2
+919,351,Relaxin family peptide receptors,0,3
+582,234,Class Frizzled GPCRs,0,3
+1490,33,Complement peptide receptors,0,1
+810,104,Class A Orphans with emerging pharmacology,0,0
+754,310,Neurotensin receptors,0,4
+1815,58,Chemokine receptors,0,0
+599,297,Motilin receptor,0,1
+2504,255,Glycoprotein hormone receptors,0,4
+3645,362,Tachykinin receptors,0,1
+1822,220,Endothelin receptors,0,1
+2270,67,Chemokine receptors,0,2
+3549,356,Somatostatin receptors,0,0
+2019,69,Chemokine receptors,0,0
+1577,354,Relaxin family peptide receptors,0,1
+7930,115,Class A Orphans with emerging pharmacology,0,3
+3544,42,Bradykinin receptors,0,1
+753,302,Neuropeptide S receptor,0,2
+2020,280,Melanin-concentrating hormone receptors,0,3
+861,256,Gonadotrophin-releasing hormone receptors,0,0
+644,281,Melanin-concentrating hormone receptors,0,1
+821,36,Apelin receptor,0,2
+845,74,Chemokine receptors,0,3
+1458,368,Vasopressin and oxytocin receptors,0,0
+585,157,Class A Orphans with emerging pharmacology,0,3
+4358,64,Chemokine receptors,0,1
+137,356,Somatostatin receptors,0,1
+3548,256,Gonadotrophin-releasing hormone receptors,0,0
+855,299,Neuromedin U receptors,0,4
+6175,34,Angiotensin receptors,0,3
+1866,68,Chemokine receptors,0,4
+3649,300,Neuropeptide FF/neuropeptide AF receptors,0,4
+2504,78,Chemokine receptors,0,3
+1157,65,Chemokine receptors,0,0
+1644,42,Bradykinin receptors,0,4
+754,157,Class A Orphans with emerging pharmacology,0,3
+644,72,Chemokine receptors,0,2
+1621,360,Tachykinin receptors,0,1
+1579,298,Neuromedin U receptors,0,1
+3665,304,Neuropeptide W/neuropeptide B receptors,0,4
+755,244,Galanin receptors,0,2
+1990,34,Angiotensin receptors,0,4
+861,265,Histamine receptors,0,1
+1159,307,Neuropeptide Y receptors,0,2
+3556,351,Relaxin family peptide receptors,0,2
+811,353,Relaxin family peptide receptors,0,2
+1162,147,"LGR4, LGR5, LGR6",0,1
+3698,103,Class A Orphans with emerging pharmacology,0,1
+1143,72,Chemokine receptors,0,0
+1501,149,"LGR4, LGR5, LGR6",0,3
+756,42,Bradykinin receptors,0,3
+757,38,Bombesin receptors,0,1
+3699,75,Chemokine receptors,0,3
+3643,62,Chemokine receptors,0,3
+8532,317,Opioid receptors,0,0
+1499,365,Urotensin receptor,0,3
+1990,357,Somatostatin receptors,0,1
+1004,353,Relaxin family peptide receptors,0,0
+1995,220,Endothelin receptors,0,2
+776,282,Melanocortin receptors,0,4
+1047,36,Apelin receptor,0,2
+758,351,Relaxin family peptide receptors,0,3
+1517,361,Tachykinin receptors,0,0
+769,156,Class A Orphans with emerging pharmacology,0,2
+2019,36,Apelin receptor,0,2
+1790,358,Somatostatin receptors,0,1
+990,60,Chemokine receptors,0,1
+3729,302,Neuropeptide S receptor,0,0
+861,66,Chemokine receptors,0,4
+827,371,VIP and PACAP receptors,0,0
+3920,147,"LGR4, LGR5, LGR6",0,3
+756,251,Glucagon receptor family,0,4
+682,66,Chemokine receptors,0,3
+2504,250,Glucagon receptor family,0,2
+685,149,"LGR4, LGR5, LGR6",0,2
+1502,319,Opioid receptors,0,0
+1997,248,Glucagon receptor family,0,0
+9734,60,Chemokine receptors,0,2
+861,48,Calcitonin receptors,0,3
+989,224,Formylpeptide receptors,0,4
+2008,35,Angiotensin receptors,0,2
+3646,219,Endothelin receptors,0,3
+1643,156,Class A Orphans with emerging pharmacology,0,3
+828,46,Calcitonin receptors,0,3
+582,250,Glucagon receptor family,0,2
+3647,246,Ghrelin receptor,0,1
+2156,156,Class A Orphans with emerging pharmacology,0,4
+1620,360,Tachykinin receptors,0,1
+919,245,Galanin receptors,0,3
+1512,76,Cholecystokinin receptors,0,1
+3547,371,VIP and PACAP receptors,0,2
+1502,59,Chemokine receptors,0,2
+681,148,"LGR4, LGR5, LGR6",0,3
+6894,337,Prolactin-releasing peptide receptor,0,3
+1867,63,Chemokine receptors,0,1
+1470,305,Neuropeptide Y receptors,0,2
+1988,244,Galanin receptors,0,4
+1697,234,Class Frizzled GPCRs,0,1
+1512,72,Chemokine receptors,0,3
+585,224,Formylpeptide receptors,0,3
+1496,31,Complement peptide receptors,0,2
+1333,49,Calcitonin receptors,0,3
+1867,49,Calcitonin receptors,0,3
+1873,76,Cholecystokinin receptors,0,3
+8533,46,Calcitonin receptors,0,4
+1577,372,VIP and PACAP receptors,0,1
+758,249,Glucagon receptor family,0,2
+772,367,Vasopressin and oxytocin receptors,0,1
+649,254,Glycoprotein hormone receptors,0,4
+820,149,"LGR4, LGR5, LGR6",0,0
+1140,360,Tachykinin receptors,0,1
+3646,50,Calcitonin receptors,0,1
+6244,335,Prokineticin receptors,0,0
+1868,213,Corticotropin-releasing factor receptors,0,2
+1988,104,Class A Orphans with emerging pharmacology,0,0
+1868,76,Cholecystokinin receptors,0,1
+990,303,Neuropeptide W/neuropeptide B receptors,0,1
+3640,365,Urotensin receptor,0,0
+3699,266,Kisspeptin receptor,0,2
+684,307,Neuropeptide Y receptors,0,0
+2945,336,Prokineticin receptors,0,2
+829,265,Histamine receptors,0,2
+8526,71,Chemokine receptors,0,0
+835,147,"LGR4, LGR5, LGR6",0,3
+8409,149,"LGR4, LGR5, LGR6",0,3
+3699,220,Endothelin receptors,0,2
+5368,70,Chemokine receptors,0,2
+1577,265,Histamine receptors,0,1
+613,46,Calcitonin receptors,0,4
+582,354,Relaxin family peptide receptors,0,1
+1499,248,Glucagon receptor family,0,2
+776,70,Chemokine receptors,0,4
+1044,367,Vasopressin and oxytocin receptors,0,4
+912,41,Bradykinin receptors,0,1
+797,310,Neurotensin receptors,0,2
+775,3,5-Hydroxytryptamine receptors,0,1
+2020,60,Chemokine receptors,0,2
+3643,38,Bombesin receptors,0,4
+605,71,Chemokine receptors,0,3
+3728,38,Bombesin receptors,0,2
+683,219,Endothelin receptors,0,1
+1613,361,Tachykinin receptors,0,1
+684,234,Class Frizzled GPCRs,0,3
+8411,41,Bradykinin receptors,0,1
+855,224,Formylpeptide receptors,0,2
+771,304,Neuropeptide W/neuropeptide B receptors,0,2
+1504,68,Chemokine receptors,0,1
+3544,43,Calcitonin receptors,0,1
+755,3,5-Hydroxytryptamine receptors,0,3
+3640,302,Neuropeptide S receptor,0,1
+2270,284,Melanocortin receptors,0,2
+573,303,Neuropeptide W/neuropeptide B receptors,0,2
+646,303,Neuropeptide W/neuropeptide B receptors,0,1
+755,319,Opioid receptors,0,1
+1499,48,Calcitonin receptors,0,1
+1873,243,Galanin receptors,0,0
+1699,309,Neurotensin receptors,0,3
+1495,213,Corticotropin-releasing factor receptors,0,4
+758,336,Prokineticin receptors,0,4
+3698,360,Tachykinin receptors,0,1
+3556,35,Angiotensin receptors,0,1
+606,73,Chemokine receptors,0,1
+1613,368,Vasopressin and oxytocin receptors,0,3
+3667,43,Calcitonin receptors,0,0
+3729,331,Parathyroid hormone receptors,0,0
+811,60,Chemokine receptors,0,1
+5368,315,Chemokine receptors,0,1
+599,244,Galanin receptors,0,0
+3698,367,Vasopressin and oxytocin receptors,0,0
+8533,358,Somatostatin receptors,0,0
+808,265,Histamine receptors,0,0
+1490,43,Calcitonin receptors,0,0
+864,250,Glucagon receptor family,0,3
+8411,224,Formylpeptide receptors,0,0
+1600,303,Neuropeptide W/neuropeptide B receptors,0,1
+3935,299,Neuromedin U receptors,0,3
+772,147,"LGR4, LGR5, LGR6",0,4
+1600,245,Galanin receptors,0,2
+1479,332,Parathyroid hormone receptors,0,4
+3667,61,Chemokine receptors,0,4
+646,372,VIP and PACAP receptors,0,1
+2168,333,QRFP receptor,0,3
+573,367,Vasopressin and oxytocin receptors,0,4
+3647,354,Relaxin family peptide receptors,0,2
+4057,281,Melanin-concentrating hormone receptors,0,0
+861,39,Bombesin receptors,0,2
+756,354,Relaxin family peptide receptors,0,1
+1620,284,Melanocortin receptors,0,0
+810,249,Glucagon receptor family,0,3
+989,359,Somatostatin receptors,0,1
+7930,75,Chemokine receptors,0,0
+1284,309,Neurotensin receptors,0,0
+753,333,QRFP receptor,0,0
+3645,306,Neuropeptide Y receptors,0,3
+644,149,"LGR4, LGR5, LGR6",0,4
+1822,48,Calcitonin receptors,0,0
+808,354,Relaxin family peptide receptors,0,4
+1502,249,Glucagon receptor family,0,3
+989,74,Chemokine receptors,0,1
+6175,322,Orexin receptors,0,1
+1988,322,Orexin receptors,0,2
+1512,60,Chemokine receptors,0,1
+606,33,Complement peptide receptors,0,1
+828,3,5-Hydroxytryptamine receptors,0,0
+1496,80,Chemokine receptors,0,3
+776,247,Glucagon receptor family,0,2
+861,301,Neuropeptide FF/neuropeptide AF receptors,0,3
+835,46,Calcitonin receptors,0,2
+820,356,Somatostatin receptors,0,2
+812,75,Chemokine receptors,0,3
+639,366,Vasopressin and oxytocin receptors,0,3
+1499,58,Chemokine receptors,0,3
+1822,256,Gonadotrophin-releasing hormone receptors,0,1
+8531,65,Chemokine receptors,0,1
+6244,46,Calcitonin receptors,0,2
+585,69,Chemokine receptors,0,0
+797,351,Relaxin family peptide receptors,0,3
+2270,58,Chemokine receptors,0,0
+3667,148,"LGR4, LGR5, LGR6",0,4
+1335,32,Complement peptide receptors,0,0
+8411,33,Complement peptide receptors,0,0
+1143,224,Formylpeptide receptors,0,1
+989,234,Class Frizzled GPCRs,0,0
+8531,66,Chemokine receptors,0,4
+817,244,Galanin receptors,0,2
+1458,33,Complement peptide receptors,0,3
+1815,361,Tachykinin receptors,0,2
+1988,310,Neurotensin receptors,0,0
+808,310,Neurotensin receptors,0,4
+6067,305,Neuropeptide Y receptors,0,3
+753,360,Tachykinin receptors,0,3
+921,336,Prokineticin receptors,0,2
+3700,63,Chemokine receptors,0,3
+573,247,Glucagon receptor family,0,1
+1283,66,Chemokine receptors,0,2
+1099,337,Prolactin-releasing peptide receptor,0,4
+4370,322,Orexin receptors,0,0
+3566,250,Glucagon receptor family,0,0
+11417,243,Galanin receptors,0,1
+1997,251,Glucagon receptor family,0,4
+1333,280,Melanin-concentrating hormone receptors,0,1
+1490,370,VIP and PACAP receptors,0,1
+3548,281,Melanin-concentrating hormone receptors,0,4
+798,244,Galanin receptors,0,0
+3729,62,Chemokine receptors,0,1
+830,219,Endothelin receptors,0,1
+855,79,Chemerin receptors,0,2
+639,356,Somatostatin receptors,0,1
+928,366,Vasopressin and oxytocin receptors,0,3
+8411,280,Melanin-concentrating hormone receptors,0,1
+990,149,"LGR4, LGR5, LGR6",0,3
+8532,310,Neurotensin receptors,0,0
+808,61,Chemokine receptors,0,4
+3920,298,Neuromedin U receptors,0,4
+10221,61,Chemokine receptors,0,0
+3549,250,Glucagon receptor family,0,0
+3935,309,Neurotensin receptors,0,2
+687,365,Urotensin receptor,0,0
+820,266,Kisspeptin receptor,0,1
+1152,44,Calcitonin receptors,0,4
+2091,366,Vasopressin and oxytocin receptors,0,4
+757,60,Chemokine receptors,0,4
+1620,337,Prolactin-releasing peptide receptor,0,4
+1866,222,Formylpeptide receptors,0,0
+808,103,Class A Orphans with emerging pharmacology,0,0
+2270,353,Relaxin family peptide receptors,0,3
+1621,49,Calcitonin receptors,0,2
+582,307,Neuropeptide Y receptors,0,4
+8531,234,Class Frizzled GPCRs,0,3
+8533,103,Class A Orphans with emerging pharmacology,0,0
+3548,64,Chemokine receptors,0,0
+1871,305,Neuropeptide Y receptors,0,4
+1004,246,Ghrelin receptor,0,1
+6067,77,Cholecystokinin receptors,0,4
+3645,68,Chemokine receptors,0,1
+2274,306,Neuropeptide Y receptors,0,1
+1470,336,Prokineticin receptors,0,3
+1512,246,Ghrelin receptor,0,4
+1026,82,Chemerin receptors,0,1
+3699,104,Class A Orphans with emerging pharmacology,0,2
+757,245,Galanin receptors,0,1
+1500,149,"LGR4, LGR5, LGR6",0,2
+646,75,Chemokine receptors,0,2
+3548,49,Calcitonin receptors,0,0
+684,103,Class A Orphans with emerging pharmacology,0,1
+864,366,Vasopressin and oxytocin receptors,0,2
+1140,33,Complement peptide receptors,0,4
+989,3,5-Hydroxytryptamine receptors,0,2
+639,33,Complement peptide receptors,0,2
+1004,222,Formylpeptide receptors,0,0
+8531,309,Neurotensin receptors,0,0
+830,148,"LGR4, LGR5, LGR6",0,2
+1621,68,Chemokine receptors,0,4
+4370,302,Neuropeptide S receptor,0,4
+612,79,Chemerin receptors,0,0
+753,361,Tachykinin receptors,0,4
+3728,35,Angiotensin receptors,0,0
+1499,356,Somatostatin receptors,0,2
+1333,332,Parathyroid hormone receptors,0,0
+990,335,Prokineticin receptors,0,0
+1815,212,Corticotropin-releasing factor receptors,0,4
+585,46,Calcitonin receptors,0,2
+1157,265,Histamine receptors,0,4
+2504,44,Calcitonin receptors,0,1
+3544,302,Neuropeptide S receptor,0,3

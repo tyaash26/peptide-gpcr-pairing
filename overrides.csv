@@ -1,0 +1,2 @@
+peptide_gtopdb_id,field,value,reason
+1866,precursor_uniprot,P58294,"GtoPdb peptides.csv gives Q9HC23 (prokineticin-2) for ligand 1866 prokineticin-1; all three prokineticin rows (1866/1867/1868) carry Q9HC23. Name, species and the 86-aa sequence are correct for prokineticin-1, so only the accession field is wrong. UniProt reviewed human PROK1 is P58294. Reported upstream."

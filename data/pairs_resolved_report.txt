@@ -1,0 +1,18 @@
+pairs.csv:      386 rows
+precursors.csv: 130 genes
+
+overrides.csv: 1 entries
+  ligand 1866: precursor_uniprot ['P58294'] -> P58294 (2 rows)
+
+pairs with no precursor accession: 8
+accessions carrying more than one symbol (collapsed by this step): 1
+  P30990: ['NTS', 'Nts']
+
+386 rows -> 386 unique (peptide, receptor) pairs
+  distinct receptors:  126
+  distinct peptides:   207
+  distinct precursors: 129  (feature key; several peptides may share one)
+  rows carrying an override: 2
+  pairs whose precursor still disagrees with GtoPdb: 0 (should be 0 once overridden)
+
+wrote data/pairs_resolved.csv

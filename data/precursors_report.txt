@@ -1,0 +1,7 @@
+130 distinct precursor genes
+agrees with a GtoPdb raw accession: 126
+disagrees with every GtoPdb raw accession: 1
+no raw string available to check: 3
+unresolved by UniProt: 0
+
+A 'DISAGREES' row means UniProt's reviewed human accession for that gene is absent from the accessions GtoPdb listed. Inspect these individually; do not auto-correct either source.

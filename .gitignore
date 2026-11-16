@@ -1,0 +1,4 @@
+data/gtopdb/
+__pycache__/
+*.pyc
+dl.html

@@ -1,0 +1,22 @@
+gpcr_interactions: 10,854 rows, 44 cols
+peptides:          2,466 rows
+targets_families:  3,390 rows
+
+distinct peptide ligand IDs:              2,466
+GPCR interactions with a peptide ligand:  3,113
+  + human receptor:                       2,219
+  + human peptide (blanks kept, flagged): 2,128   [1,577 blank]
+  + endogenous == true:                   495
+
+Type:   {'Agonist': np.int64(477), 'Antagonist': np.int64(17), 'Allosteric modulator': np.int64(1)}
+Action: {'Full agonist': np.int64(323), 'Agonist': np.int64(141), 'Antagonist': np.int64(14), 'Partial agonist': np.int64(11), 'Inverse agonist': np.int64(3), 'Negative': np.int64(1), '(blank)': np.int64(1), 'Unknown': np.int64(1)}
+
+495 rows -> 386 unique peptide-receptor pairs
+  distinct receptors:  126
+  distinct peptides:   207
+  no sequence:         14
+  no precursor gene:   8   (blocks milestone 2 for those)
+  species_assumed:     1
+  peptide_gene basis:  {'single': np.int64(274), 'aligned': np.int64(104), '(none)': np.int64(8)}
+
+NOTE: precursor_uniprot_raw is the unparsed GtoPdb string. The accession order is not species-aligned, so no human accession is asserted here; resolve from peptide_gene via UniProt ID mapping.

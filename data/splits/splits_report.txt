@@ -1,0 +1,59 @@
+positives: 386 pairs, 126 receptors, 207 peptides
+candidate grid: 26,082 possible pairs, 25,696 of them untested
+NOTE: untested pairs are used as negatives but are not verified negatives. Some are real pairings nobody has assayed, which caps achievable AUROC.
+
+hard negatives: pool of 1,041 candidates, sampling 1,041 per seed (ratio 3)
+
+cold_receptor / hard / seed 0
+  fold 0: 403 rows, 92 positive (0.228 base rate)
+  fold 1: 215 rows, 76 positive (0.353 base rate)
+  fold 2: 298 rows, 76 positive (0.255 base rate)
+  fold 3: 235 rows, 67 positive (0.285 base rate)
+  fold 4: 276 rows, 75 positive (0.272 base rate)
+  leakage check passed for cold_receptor (receptor_gtopdb_id)
+
+cold_both / hard / seed 0
+  fold -1: 1,155 rows, 313 positive (0.271 base rate)
+  fold 0: 56 rows, 12 positive (0.214 base rate)
+  fold 1: 45 rows, 17 positive (0.378 base rate)
+  fold 2: 76 rows, 17 positive (0.224 base rate)
+  fold 3: 35 rows, 14 positive (0.400 base rate)
+  fold 4: 60 rows, 13 positive (0.217 base rate)
+  1,155 rows discarded (one entity held out, not both) -- these are excluded from both train and test
+  leakage check passed for cold_both (receptor_gtopdb_id, peptide_gtopdb_id)
+
+random_edge / hard / seed 0
+  fold 0: 286 rows, 64 positive (0.224 base rate)
+  fold 1: 286 rows, 70 positive (0.245 base rate)
+  fold 2: 285 rows, 81 positive (0.284 base rate)
+  fold 3: 285 rows, 84 positive (0.295 base rate)
+  fold 4: 285 rows, 87 positive (0.305 base rate)
+
+random negatives: pool of 25,696 candidates, sampling 1,158 per seed (ratio 3)
+
+cold_receptor / random / seed 0
+  fold 0: 317 rows, 92 positive (0.290 base rate)
+  fold 1: 298 rows, 76 positive (0.255 base rate)
+  fold 2: 312 rows, 76 positive (0.244 base rate)
+  fold 3: 293 rows, 67 positive (0.229 base rate)
+  fold 4: 324 rows, 75 positive (0.231 base rate)
+  leakage check passed for cold_receptor (receptor_gtopdb_id)
+
+cold_both / random / seed 0
+  fold -1: 1,262 rows, 313 positive (0.248 base rate)
+  fold 0: 51 rows, 12 positive (0.235 base rate)
+  fold 1: 61 rows, 17 positive (0.279 base rate)
+  fold 2: 58 rows, 17 positive (0.293 base rate)
+  fold 3: 53 rows, 14 positive (0.264 base rate)
+  fold 4: 59 rows, 13 positive (0.220 base rate)
+  1,262 rows discarded (one entity held out, not both) -- these are excluded from both train and test
+  leakage check passed for cold_both (receptor_gtopdb_id, peptide_gtopdb_id)
+
+random_edge / random / seed 0
+  fold 0: 309 rows, 70 positive (0.227 base rate)
+  fold 1: 309 rows, 75 positive (0.243 base rate)
+  fold 2: 309 rows, 86 positive (0.278 base rate)
+  fold 3: 309 rows, 73 positive (0.236 base rate)
+  fold 4: 308 rows, 82 positive (0.266 base rate)
+
+wrote split files to data/splits/
