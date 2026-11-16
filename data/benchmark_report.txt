@@ -1,0 +1,82 @@
+CONTROL 1: self-pairs (does the metric detect identity at all?)
+  self-pair bit_identity: 1.0000 (expected 1.0000)
+  self-pair jaccard:      1.0000 (expected 1.0000)
+  instrument check: PASS
+
+score files: 18
+
+AUROC by scheme and metric (mean across seeds, with per-seed range)
+
+cold_both / hard negatives  (n=1157, base rate 0.25)
+   all__bit_identity        AUROC 0.476 (seeds 0.476-0.476)  AUPRC 0.255
+   all__jaccard             AUROC 0.529 (seeds 0.529-0.529)  AUPRC 0.313
+   all__pearson             AUROC 0.523 (seeds 0.523-0.523)  AUPRC 0.311
+   shared__bit_identity     AUROC 0.529 (seeds 0.529-0.529)  AUPRC 0.313
+   shared__jaccard          AUROC 0.529 (seeds 0.529-0.529)  AUPRC 0.313
+   shared__pearson          AUROC 0.559 (seeds 0.559-0.559)  AUPRC 0.308
+   all__n_both              AUROC 0.589 (seeds 0.589-0.589)  AUPRC 0.390  [confounder]
+   all__n_peptide           AUROC 0.578 (seeds 0.578-0.578)  AUPRC 0.326  [confounder]
+   all__n_receptor          AUROC 0.629 (seeds 0.629-0.629)  AUPRC 0.465  [confounder]
+   SHUFFLED_LABELS          AUROC 0.501 (seeds 0.478-0.520)  AUPRC 0.259  [control]
+
+cold_both / random negatives  (n=1215, base rate 0.24)
+   all__bit_identity        AUROC 0.561 (seeds 0.555-0.567)  AUPRC 0.276
+   all__jaccard             AUROC 0.562 (seeds 0.559-0.567)  AUPRC 0.285
+   all__pearson             AUROC 0.561 (seeds 0.558-0.565)  AUPRC 0.284
+   shared__bit_identity     AUROC 0.562 (seeds 0.559-0.567)  AUPRC 0.285
+   shared__jaccard          AUROC 0.562 (seeds 0.559-0.567)  AUPRC 0.285
+   shared__pearson          AUROC 0.536 (seeds 0.530-0.544)  AUPRC 0.265
+   all__n_both              AUROC 0.538 (seeds 0.536-0.541)  AUPRC 0.276  [confounder]
+   all__n_peptide           AUROC 0.532 (seeds 0.526-0.541)  AUPRC 0.263  [confounder]
+   all__n_receptor          AUROC 0.510 (seeds 0.506-0.512)  AUPRC 0.251  [confounder]
+   SHUFFLED_LABELS          AUROC 0.502 (seeds 0.497-0.510)  AUPRC 0.247  [control]
+
+cold_receptor / hard negatives  (n=1157, base rate 0.25)
+   all__bit_identity        AUROC 0.476 (seeds 0.476-0.476)  AUPRC 0.255
+   all__jaccard             AUROC 0.529 (seeds 0.529-0.529)  AUPRC 0.313
+   all__pearson             AUROC 0.523 (seeds 0.523-0.523)  AUPRC 0.311
+   shared__bit_identity     AUROC 0.529 (seeds 0.529-0.529)  AUPRC 0.313
+   shared__jaccard          AUROC 0.529 (seeds 0.529-0.529)  AUPRC 0.313
+   shared__pearson          AUROC 0.559 (seeds 0.559-0.559)  AUPRC 0.308
+   all__n_both              AUROC 0.589 (seeds 0.589-0.589)  AUPRC 0.390  [confounder]
+   all__n_peptide           AUROC 0.578 (seeds 0.578-0.578)  AUPRC 0.326  [confounder]
+   all__n_receptor          AUROC 0.629 (seeds 0.629-0.629)  AUPRC 0.465  [confounder]
+   SHUFFLED_LABELS          AUROC 0.501 (seeds 0.478-0.520)  AUPRC 0.259  [control]
+
+cold_receptor / random negatives  (n=1215, base rate 0.24)
+   all__bit_identity        AUROC 0.561 (seeds 0.555-0.567)  AUPRC 0.276
+   all__jaccard             AUROC 0.562 (seeds 0.559-0.567)  AUPRC 0.285
+   all__pearson             AUROC 0.561 (seeds 0.558-0.565)  AUPRC 0.284
+   shared__bit_identity     AUROC 0.562 (seeds 0.559-0.567)  AUPRC 0.285
+   shared__jaccard          AUROC 0.562 (seeds 0.559-0.567)  AUPRC 0.285
+   shared__pearson          AUROC 0.536 (seeds 0.530-0.544)  AUPRC 0.265
+   all__n_both              AUROC 0.538 (seeds 0.536-0.541)  AUPRC 0.276  [confounder]
+   all__n_peptide           AUROC 0.532 (seeds 0.526-0.541)  AUPRC 0.263  [confounder]
+   all__n_receptor          AUROC 0.510 (seeds 0.506-0.512)  AUPRC 0.251  [confounder]
+   SHUFFLED_LABELS          AUROC 0.502 (seeds 0.497-0.510)  AUPRC 0.247  [control]
+
+random_edge / hard negatives  (n=1157, base rate 0.25)
+   all__bit_identity        AUROC 0.476 (seeds 0.476-0.476)  AUPRC 0.255
+   all__jaccard             AUROC 0.529 (seeds 0.529-0.529)  AUPRC 0.313
+   all__pearson             AUROC 0.523 (seeds 0.523-0.523)  AUPRC 0.311
+   shared__bit_identity     AUROC 0.529 (seeds 0.529-0.529)  AUPRC 0.313
+   shared__jaccard          AUROC 0.529 (seeds 0.529-0.529)  AUPRC 0.313
+   shared__pearson          AUROC 0.559 (seeds 0.559-0.559)  AUPRC 0.308
+   all__n_both              AUROC 0.589 (seeds 0.589-0.589)  AUPRC 0.390  [confounder]
+   all__n_peptide           AUROC 0.578 (seeds 0.578-0.578)  AUPRC 0.326  [confounder]
+   all__n_receptor          AUROC 0.629 (seeds 0.629-0.629)  AUPRC 0.465  [confounder]
+   SHUFFLED_LABELS          AUROC 0.501 (seeds 0.478-0.520)  AUPRC 0.259  [control]
+
+random_edge / random negatives  (n=1215, base rate 0.24)
+   all__bit_identity        AUROC 0.561 (seeds 0.555-0.567)  AUPRC 0.276
+   all__jaccard             AUROC 0.562 (seeds 0.559-0.567)  AUPRC 0.285
+   all__pearson             AUROC 0.561 (seeds 0.558-0.565)  AUPRC 0.284
+   shared__bit_identity     AUROC 0.562 (seeds 0.559-0.567)  AUPRC 0.285
+   shared__jaccard          AUROC 0.562 (seeds 0.559-0.567)  AUPRC 0.285
+   shared__pearson          AUROC 0.536 (seeds 0.530-0.544)  AUPRC 0.265
+   all__n_both              AUROC 0.538 (seeds 0.536-0.541)  AUPRC 0.276  [confounder]
+   all__n_peptide           AUROC 0.532 (seeds 0.526-0.541)  AUPRC 0.263  [confounder]
+   all__n_receptor          AUROC 0.510 (seeds 0.506-0.512)  AUPRC 0.251  [confounder]
+   SHUFFLED_LABELS          AUROC 0.502 (seeds 0.497-0.510)  AUPRC 0.247  [control]
+
+How to read this. A similarity metric shows signal only if its AUROC is clearly above 0.5 with a bootstrap interval excluding 0.5, while SHUFFLED_LABELS sits at 0.5. If a confounder (n_receptor, n_peptide) scores as well as the similarity metrics, the metrics are tracking how conserved the genes are, not whether they are partners. The hard-negative columns are the primary result; random negatives are shown only for contrast with published comparisons.

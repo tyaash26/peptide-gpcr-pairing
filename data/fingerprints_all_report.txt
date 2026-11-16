@@ -1,0 +1,7 @@
+accessions fetched: 255
+outcomes: {'ok': 248, 'unresolved': 7}
+distinct taxa seen across all accessions: 1,009
+orthologs per accession: median 118, min 0, max 912
+matrix: 248 accessions x 1009 taxa
+
+NOTE: no taxonomic filter was applied. Score at several species scopes from this one matrix; adding taxa where both genes are absent inflates bit-identity similarity.

@@ -1,0 +1,19 @@
+accession,gene,family,ensembl_orthologs,species,status
+O43613,HCRTR1,Orexin receptors,94,94,ok
+P01258,CALCA,(precursor),72,61,ok
+P07602,PSAP,(precursor),408,195,ok
+P10092,CALCB,(precursor),244,183,ok
+P13501,CCL5,(precursor),133,124,ok
+P30518,AVPR2,Vasopressin and oxytocin receptors,232,167,ok
+P30988,CALCR,Calcitonin receptors,216,193,ok
+P34998,CRHR1,Corticotropin-releasing factor receptors,240,190,ok
+P41586,ADCYAP1R1,VIP and PACAP receptors,260,189,ok
+P41597,CCR2,Chemokine receptors,291,166,ok
+P51681,CCR5,Chemokine receptors,306,173,ok
+P55773,CCL23,(precursor),137,101,ok
+P78423,CX3CL1,(precursor),81,81,ok
+Q01726,MC1R,Melanocortin receptors,156,147,ok
+Q765I0,UTS2B,(precursor),90,90,ok
+Q8NG41,NPB,(precursor),222,149,ok
+Q9HBX8,LGR6,"LGR4, LGR5, LGR6",196,186,ok
+Q9Y5X5,NPFFR2,Neuropeptide FF/neuropeptide AF receptors,253,186,ok
