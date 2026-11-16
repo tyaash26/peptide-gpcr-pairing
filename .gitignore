@@ -2,3 +2,6 @@ data/gtopdb/
 __pycache__/
 *.pyc
 dl.html
+data/oma/
+data/oma_all/
+data/scores_*_seed*.csv

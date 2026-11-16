@@ -68,8 +68,8 @@ flawed implementation.
   strong correlations between non-interacting but co-functional enzymes, and
   that ERC is distributed uniformly along the protein sequence rather than
   concentrated at interfaces.
-- Little et al. (2024, *eLife* 93333) tested this directly on protein
-  complexes and found no generalizable relationship between physical
+- Little J, Chikina M, Clark NL (2024, *eLife* 12:RP93333) tested this directly
+  on protein complexes and found no generalizable relationship between physical
   interaction and high ERC, concluding that the dominant signal comes from
   selective pressure on the protein as a whole rather than from compensatory
   change at a binding interface.
@@ -97,6 +97,56 @@ circulation points the other way.
 - A non-pair is an untested pair, not a verified negative. Only 386 of 26,082
   possible combinations are known, so some negatives are real pairings nobody
   has assayed. This caps achievable AUROC.
+
+## A second system where the same question applies
+
+Cho et al., *Genetic comparisons of interleukin-17 reveal a framework for
+complex signaling evolution* (bioRxiv, April 2026; PMC13105070, PMID 42039560)
+apply ERC to the IL-17 ligand–receptor family and report putative interactions
+for IL-17D:IL-17RC and IL-17B:IL-17REL. The design has the same gap this study
+was built to probe, and the evidence is in their own text.
+
+**No statistical control is reported for the ERC analysis.** The full text
+contains no occurrence of "permutation", "random", "null", "p-value" or "FDR".
+A "threshold of significance" is applied to ERC scores but not derived. By
+contrast, their selection analyses report explicit criteria (PAML BEB > 0.99,
+MEME p < 0.05, FUBAR posterior > 0.95), so the asymmetry is specific to ERC
+rather than a general looseness.
+
+**Known pairs are evaluated by eye on an annotated heatmap.** Known
+ligand–receptor pairs are marked with black boxes; unmarked high-scoring cells
+are read as previously unrecognized associations. Within a family of six
+ligands and six receptors every cell is already a family-matched comparison —
+the regime in which the present study finds high scores regardless of
+partnership.
+
+**A canonical pair fails the test and is explained post hoc.** They report that
+IL-17A showed significantly weaker ERC with its cognate receptors IL-17RA and
+IL-17RC than their threshold, suggesting this reflects "functional flexibility"
+arising from promiscuity. They then report IL-17E:IL-17RB as defying that
+trend: also promiscuous, but with a strong ERC signal they take as evidence of
+a real interaction. Weak ERC for a promiscuous ligand is explained by
+promiscuity; strong ERC for a promiscuous ligand is taken as confirmation.
+Both outcomes support the framework, which leaves nothing that could
+contradict it.
+
+They cite Little et al. (2024) — the paper concluding ERC predicts co-functional
+rather than physical interactions — and nonetheless interpret ERC cells as
+binding predictions.
+
+**Proposed test.** Apply the evaluation in this repository to the IL-17 family:
+known pairs as positives, the remaining ligand–receptor cells as
+family-matched negatives, AUROC with bootstrap intervals, self-pair and
+shuffled-label controls. Expected caveat: with roughly 36 cells and a handful
+of positives, the intervals will be very wide, and the honest conclusion may be
+that the family is underpowered for evaluation — which is itself a criticism of
+drawing predictions from it.
+
+One of their predictions has independent support: Li et al. (2026, *Nat
+Immunol* 27:225–235) report IL-17REL as a decoy receptor binding IL-17A,
+IL-17F and IL-17C. A decoy binding many ligands is promiscuity rather than
+specific pairing, so this is weak evidence for a cognate IL-17B:IL-17REL pair
+in particular.
 
 ## Secondary finding: the orthology database decides what is analysable
 
