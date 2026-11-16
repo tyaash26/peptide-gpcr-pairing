@@ -25,6 +25,12 @@ Every similarity metric's interval spans 0.5. Receptor conservation — one
 number per gene, carrying no information about partnership — outranks all of
 them.
 
+**On the 0.629: it is not a biological confounder.** An earlier version of this
+document read it as evidence that the similarity metrics track gene
+conservation. That interpretation was tested three ways and is wrong; see
+"Taking the conservation effect apart" below. The conclusion about the
+similarity metrics is unaffected.
+
 ### Controls
 
 - **Self-pairs: 1.0000.** Every gene scored against itself gives exactly 1.0 on
@@ -49,6 +55,87 @@ Foster et al. reported 0.91 for cognate pairs against 0.56 for random
 protein–protein pairs. The negatives in this study reproduce their
 positive-pair figure, because within the peptide–GPCR system every gene is
 broadly conserved and bit identity counts shared absence as agreement.
+
+## Taking the conservation effect apart
+
+Receptor conservation at AUROC 0.629 looked like a confounder the similarity
+metrics were tracking. Three explanations were tested; all three fail.
+Reproduce with `benchmark_strata.py`.
+
+**Not driven by moonlighting proteins.** Nineteen precursor genes are not
+classical prohormones (housekeeping and structural proteins whose fragments act
+at GPCRs; the set is hand-curated in `analyze_network.py`). Excluding them
+moves receptor conservation from 0.629 to 0.636. They are 35 of 386 pairs, 9%
+of the network.
+
+**Not a proxy for receptor promiscuity.** Spearman correlation between a
+receptor's ortholog count and its number of known peptide partners is 0.064.
+
+**It is a pooling artifact.** Computed within a single receptor family the
+effect disappears: AUROC 0.423 among chemokine receptors (n = 798) and 0.480
+among the glucagon family (n = 54), against 0.629 pooled. Only those two
+families have enough rows to evaluate. Families whose receptors have more
+orthologs carry a higher positive rate in the negative set, so pooling across
+families manufactures a correlation present in none of them — Simpson's
+paradox. Conservation carries no within-family pairing information either.
+
+## A flaw in family-matched negative sampling
+
+Scoring candidate pairs by receptor degree alone — how many peptides that
+receptor is already known to bind, which says nothing about any particular
+peptide — gives AUROC 0.690, above receptor conservation (0.629) and above
+every similarity metric (0.476–0.559).
+
+Negatives are drawn as same-family receptors a peptide does not bind. A
+receptor with many known partners is therefore more likely to be the positive
+for any peptide in its family, so degree predicts the label by construction.
+Any benchmark sampling negatives per-entity from a curated interaction set
+inherits this. It is independent of the conservation effect (Spearman 0.064).
+
+This does not weaken the main result — the similarity metrics score *below*
+both label-correlated baselines — but it means the absolute AUROC values here
+are not a clean measure of anything, and a future design should either
+condition on degree or sample negatives to balance it.
+
+### Where the sampling breaks down entirely
+
+For small, exclusive families it cannot generate negatives. Among WNT and RSPO
+ligands, Frizzled and LGR receptors appear as 11 positives and zero negatives,
+because nearly every family member is a true partner. A post-hoc subgroup
+analysis of the moonlighting stratum returned AUROC 0.813 [0.683–0.917] for
+Pearson correlation, which on inspection is a classifier separating
+Frizzled/LGR genes from chemokine genes rather than detecting pairs: that
+stratum contains 18 chemokine negatives against 1 positive, and 11 Frizzled/LGR
+positives against 0 negatives. Per-family results are uninterpretable wherever
+most family members are genuine partners.
+
+## Hypotheses tested and discarded
+
+Recorded because the main result's credibility rests on them having been
+tested rather than assumed.
+
+| Hypothesis | Test | Outcome |
+|---|---|---|
+| OMA's `rel_type=1:1` filter removes paralog-rich families | Refetched without the filter | Wrong — the same 18 proteins have no orthology group either way |
+| Moonlighting proteins drive the conservation effect | Stratified benchmark | Wrong — 0.629 vs 0.636 excluded |
+| Conservation is a proxy for receptor promiscuity | Spearman vs degree | Wrong — 0.064 |
+| The moonlighting stratum shows real co-evolution signal | Family composition of those rows | Wrong — family separation, not pairing |
+
+## Network structure
+
+From `analyze_network.py`. 386 pairs, 126 receptors, 207 peptides, 129
+precursor genes.
+
+- **Peptides are specific, receptors promiscuous.** 53% of peptides bind
+  exactly one receptor (median 1, mean 1.86, max 7). Only 24% of receptors have
+  a single peptide (median 2, mean 3.06, max 13, CCR3).
+- **Chemokines dominate.** 21 receptors, 46 peptides, 88 pairs — and 798 of the
+  1,157 scored rows. This is substantially a chemokine benchmark, and
+  chemokines are the family OMA cannot fingerprint.
+- **32 of 129 precursors yield several distinct peptides** (GAST 7, CXCL12 6,
+  PDYN 6, GCG 5), which is why pairs are keyed on the peptide.
+- Most pairs per receptor by family: opioid 6.67, calcitonin 5.0, chemokine
+  4.19.
 
 ### Why the three split schemes give identical numbers
 

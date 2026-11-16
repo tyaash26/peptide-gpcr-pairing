@@ -1,0 +1,29 @@
+moonlighting precursor accessions: 19 of 130
+
+cold_receptor / hard negatives, mean over 3 seed(s)
+
+all  (n=1157, positives=293)
+   all__bit_identity      AUROC 0.476 [0.433–0.517]  AUPRC 0.255
+   all__n_peptide         AUROC 0.578 [0.538–0.618]  AUPRC 0.326  [confounder]
+   all__n_receptor        AUROC 0.629 [0.587–0.672]  AUPRC 0.465  [confounder]
+   all__pearson           AUROC 0.523 [0.482–0.563]  AUPRC 0.311
+   shared__jaccard        AUROC 0.529 [0.488–0.571]  AUPRC 0.313
+   shared__pearson        AUROC 0.559 [0.519–0.599]  AUPRC 0.308
+
+classical  (n=1094, positives=266)
+   all__bit_identity      AUROC 0.471 [0.427–0.514]  AUPRC 0.246
+   all__n_peptide         AUROC 0.567 [0.527–0.607]  AUPRC 0.336  [confounder]
+   all__n_receptor        AUROC 0.636 [0.593–0.679]  AUPRC 0.450  [confounder]
+   all__pearson           AUROC 0.512 [0.471–0.554]  AUPRC 0.300
+   shared__jaccard        AUROC 0.518 [0.477–0.561]  AUPRC 0.301
+   shared__pearson        AUROC 0.561 [0.520–0.603]  AUPRC 0.305
+
+moonlighting  (n=63, positives=27)
+   all__bit_identity      AUROC 0.751 [0.614–0.867]  AUPRC 0.748
+   all__n_peptide         AUROC 0.355 [0.218–0.498]  AUPRC 0.383  [confounder]
+   all__n_receptor        AUROC 0.659 [0.510–0.798]  AUPRC 0.705  [confounder]
+   all__pearson           AUROC 0.813 [0.683–0.917]  AUPRC 0.813
+   shared__jaccard        AUROC 0.782 [0.647–0.895]  AUPRC 0.799
+   shared__pearson        AUROC 0.444 [0.296–0.598]  AUPRC 0.378
+
+Reading this. If the confounder's AUROC stays high in the 'classical' stratum, moonlighting proteins are not driving it and the conservation effect is a property of the whole gene set. The 'moonlighting' stratum will be small, so treat its interval as indicative only.
