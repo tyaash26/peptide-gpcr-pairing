@@ -1,0 +1,15 @@
+253 distinct accessions (124 receptor, 129 precursor)
+to fetch: 253
+  batch 1: 50/50 returned
+  batch 2: 50/50 returned
+  batch 3: 50/50 returned
+  batch 4: 50/50 returned
+  batch 5: 50/50 returned
+  batch 6: 3/3 returned
+
+sequences: 253
+  receptor   n=124  length median 384, min 148, max 967
+  precursor  n=129  length median 125, min 24, max 1676
+  1 sequences under 50 residues — language models are unreliable on fragments this short
+
+Next: ESM-2 embeddings. 650M on CPU for this many proteins is slow but feasible; a GPU on Sherlock is the better route. Embed the precursor, not the mature peptide.
