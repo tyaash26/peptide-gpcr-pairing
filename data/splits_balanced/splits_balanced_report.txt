@@ -1,0 +1,11 @@
+positives: 386 pairs, 126 receptors, 207 peptides
+receptor degree: median 2, max 13
+
+seed 0: 386 positives, 134 negatives, 252 positives unmatched (tolerance 1)
+  mean receptor degree: positives 4.68, negatives 4.42
+  median:               positives 4, negatives 3
+  AUROC of receptor degree: 0.539  (was 0.690 unmatched; 0.5 means the leak is closed)
+  distinct receptors used as negatives: 52
+  leakage check passed (cold_receptor)
+
+Next: score these with score_coevolution.py --splits data/splits_balanced, then benchmark.py. If the similarity metrics still sit at chance with degree neutralised, the null result holds under a corrected design.

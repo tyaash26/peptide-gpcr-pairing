@@ -1,0 +1,38 @@
+
+scores_cold_receptor_matched_seed0.csv  n=1104, base rate 0.265, 2,000 permutations
+  all__bit_identity      obs 0.573  null centre 0.502 [0.464–0.540]  p=0.0005  <-- exceeds null
+  all__jaccard           obs 0.560  null centre 0.502 [0.464–0.541]  p=0.0040  <-- exceeds null
+  all__pearson           obs 0.563  null centre 0.503 [0.464–0.541]  p=0.0025  <-- exceeds null
+  shared__jaccard        obs 0.560  null centre 0.502 [0.464–0.541]  p=0.0040  <-- exceeds null
+  shared__pearson        obs 0.538  null centre 0.503 [0.464–0.541]  p=0.0790
+  all__n_receptor        obs 0.494  null centre 0.500 [0.462–0.539]  p=0.7515  [confounder]
+  all__n_peptide         obs 0.498  null centre 0.499 [0.460–0.537]  p=0.9680  [confounder]
+  per-family AUROC (all__bit_identity, families with >= 40 rows)
+    Chemokine receptors                  n= 203 pos= 64 AUROC=0.551
+    Cholecystokinin receptors            n=  45 pos= 14 AUROC=0.418
+    Formylpeptide receptors              n=  45 pos=  8 AUROC=0.389
+    Neuropeptide Y receptors             n=  42 pos= 11 AUROC=0.532
+    Opioid receptors                     n=  60 pos= 18 AUROC=0.778
+    Relaxin family peptide receptors     n=  53 pos= 12 AUROC=0.398
+    Somatostatin receptors               n=  51 pos= 15 AUROC=0.573
+    Tachykinin receptors                 n=  44 pos= 11 AUROC=0.795
+
+scores_cold_receptor_matched_seed1.csv  n=1117, base rate 0.262, 2,000 permutations
+  all__bit_identity      obs 0.559  null centre 0.496 [0.459–0.533]  p=0.0015  <-- exceeds null
+  all__jaccard           obs 0.550  null centre 0.499 [0.460–0.535]  p=0.0080  <-- exceeds null
+  all__pearson           obs 0.553  null centre 0.498 [0.461–0.535]  p=0.0035  <-- exceeds null
+  shared__jaccard        obs 0.550  null centre 0.499 [0.460–0.535]  p=0.0080  <-- exceeds null
+  shared__pearson        obs 0.541  null centre 0.495 [0.457–0.534]  p=0.0180  <-- exceeds null
+  all__n_receptor        obs 0.501  null centre 0.502 [0.465–0.540]  p=0.9435  [confounder]
+  all__n_peptide         obs 0.506  null centre 0.499 [0.460–0.537]  p=0.7270  [confounder]
+
+scores_cold_receptor_matched_seed2.csv  n=1122, base rate 0.261, 2,000 permutations
+  all__bit_identity      obs 0.559  null centre 0.497 [0.459–0.535]  p=0.0015  <-- exceeds null
+  all__jaccard           obs 0.551  null centre 0.498 [0.458–0.537]  p=0.0070  <-- exceeds null
+  all__pearson           obs 0.555  null centre 0.498 [0.459–0.537]  p=0.0025  <-- exceeds null
+  shared__jaccard        obs 0.551  null centre 0.498 [0.458–0.537]  p=0.0070  <-- exceeds null
+  shared__pearson        obs 0.542  null centre 0.499 [0.461–0.536]  p=0.0250  <-- exceeds null
+  all__n_receptor        obs 0.497  null centre 0.502 [0.466–0.540]  p=0.8040  [confounder]
+  all__n_peptide         obs 0.506  null centre 0.500 [0.461–0.540]  p=0.7705  [confounder]
+
+Reading this. The null centre is where a no-signal result actually sits for this data, which need not be 0.500. An observed AUROC only counts as signal if it falls outside the null interval and the confounders do not. If the per-family AUROCs sit at chance while the pooled value does not, the metric is separating receptor families rather than identifying pairs.

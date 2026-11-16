@@ -1,0 +1,13 @@
+positives: 386 pairs, 126 receptors, 207 peptides
+receptor degree: median 2, max 13
+negative pool scope: class (any of 126 peptide receptors)
+  NOTE: a class-wide pool is a weaker control than same-family. Negatives can differ from the positive in receptor family, so a metric that separates families will look like signal. Compare against the family-scoped run rather than reading this alone.
+
+seed 0: 386 positives, 1,099 negatives, 13 positives unmatched (tolerance 1); 14 positives got fewer than 3 negatives
+  mean receptor degree: positives 4.68, negatives 4.22
+  median:               positives 4, negatives 4
+  AUROC of receptor degree: 0.529  (was 0.690 unmatched; 0.5 means the leak is closed)
+  distinct receptors used as negatives: 125
+  leakage check passed (cold_receptor)
+
+Next: score these with score_coevolution.py --splits data/splits_class3, then benchmark.py. If the similarity metrics still sit at chance with degree neutralised, the null result holds under a corrected design.

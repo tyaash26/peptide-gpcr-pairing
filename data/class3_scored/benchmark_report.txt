@@ -1,0 +1,22 @@
+CONTROL 1: self-pairs (does the metric detect identity at all?)
+  self-pair bit_identity: 1.0000 (expected 1.0000)
+  self-pair jaccard:      1.0000 (expected 1.0000)
+  instrument check: PASS
+
+score files: 3
+
+AUROC by scheme and metric (mean across seeds, with per-seed range)
+
+cold_receptor / matched negatives  (n=1114, base rate 0.26)
+   all__bit_identity        AUROC 0.564 (seeds 0.559-0.573)  AUPRC 0.298
+   all__jaccard             AUROC 0.553 (seeds 0.550-0.560)  AUPRC 0.301
+   all__pearson             AUROC 0.557 (seeds 0.553-0.563)  AUPRC 0.302
+   shared__bit_identity     AUROC 0.553 (seeds 0.550-0.560)  AUPRC 0.301
+   shared__jaccard          AUROC 0.553 (seeds 0.550-0.560)  AUPRC 0.301
+   shared__pearson          AUROC 0.540 (seeds 0.538-0.542)  AUPRC 0.283
+   all__n_both              AUROC 0.523 (seeds 0.522-0.524)  AUPRC 0.287  [confounder]
+   all__n_peptide           AUROC 0.503 (seeds 0.498-0.506)  AUPRC 0.267  [confounder]
+   all__n_receptor          AUROC 0.497 (seeds 0.494-0.501)  AUPRC 0.261  [confounder]
+   SHUFFLED_LABELS          AUROC 0.497 (seeds 0.482-0.523)  AUPRC 0.263  [control]
+
+How to read this. A similarity metric shows signal only if its AUROC is clearly above 0.5 with a bootstrap interval excluding 0.5, while SHUFFLED_LABELS sits at 0.5. If a confounder (n_receptor, n_peptide) scores as well as the similarity metrics, the metrics are tracking how conserved the genes are, not whether they are partners. The hard-negative columns are the primary result; random negatives are shown only for contrast with published comparisons.

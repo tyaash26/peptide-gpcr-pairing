@@ -1,0 +1,20 @@
+fingerprints: 248 accessions x 1009 taxa (data/fingerprints_all.csv)
+accessions with an all-zero fingerprint (excluded): 18
+split files: 3
+
+example (splits_cold_receptor_matched_seed0.csv):
+  rows scored: 567  dropped: {'no_accession': 76, 'empty_fingerprint': 116}
+  all__bit_identity:
+     label 0: mean 0.901 median 0.915
+     label 1: mean 0.908 median 0.928
+  shared__jaccard:
+     label 0: mean 0.498 median 0.479
+     label 1: mean 0.517 median 0.527
+  all__pearson:
+     label 0: mean 0.627 median 0.620
+     label 1: mean 0.644 median 0.658
+  pearson undefined for 0 rows
+
+wrote score files to data/class_scored/
+
+NOTE: these are scores, not results. Separation of the label means is not evidence until it survives the hard-negative split and conditioning on presence counts (n_receptor, n_peptide).

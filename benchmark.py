@@ -138,7 +138,7 @@ def main():
 
     rows = []
     for path in files:
-        m = re.match(r"scores_(.+)_(hard|random)_seed(\d+)\.csv",
+        m = re.match(r"scores_(.+)_(hard|random|matched)_seed(\d+)\.csv",
                      os.path.basename(path))
         if not m:
             continue

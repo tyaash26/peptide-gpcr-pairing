@@ -114,7 +114,7 @@ def main():
     first = True
     for path in files:
         name = os.path.basename(path)
-        m = re.match(r"splits_(.+)_(hard|random)_seed(\d+)\.csv", name)
+        m = re.match(r"splits_(.+)_(hard|random|matched)_seed(\d+)\.csv", name)
         if not m:
             say(f"  skipping unrecognised file {name}")
             continue

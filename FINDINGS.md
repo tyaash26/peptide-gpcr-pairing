@@ -5,6 +5,81 @@ and `data/benchmark_results.csv`, reproducible from the pipeline in the README.
 
 ## Result
 
+**The answer depends on how negatives are constructed, and that dependence is
+the finding.** Under same-family negatives, presence/absence co-evolution does
+not discriminate cognate pairs at all. Under degree-matched negatives drawn
+from the wider peptide-receptor class, a small but statistically robust effect
+appears (AUROC ≈ 0.56, permutation p < 0.002 across three seeds). Both results
+come from the same pairs, the same fingerprints and the same metrics.
+
+| Negative set | n | Bit identity AUROC | Verdict |
+|---|---|---|---|
+| Same family, unmatched degree | 1,157 | 0.476 [0.434–0.519] | no discrimination; degree leaks (0.690) |
+| Same family, degree-matched | 520 | 0.434 | unusable — 252 of 386 positives have no match |
+| Class-wide, degree-matched 1:1 | 567 | 0.563, p = 0.018 | borderline; one metric of six |
+| **Class-wide, degree-matched 3:1** | **1,104** | **0.573, p = 0.0005** | **clears correction; metrics agree** |
+
+The 3:1 class-matched design is the only one that is both adequately powered
+and free of the degree leak, so it is the primary analysis. The sections below
+were written against the earlier same-family result and are retained because
+the reasoning still applies to that design.
+
+### Primary analysis (class-wide, degree-matched, 3:1)
+
+Pre-registered before the numbers were seen: primary metric
+`all__bit_identity`, primary statistic the permutation p-value, significance
+threshold p < 0.0083 (Bonferroni for six metrics).
+
+Permutation null built by shuffling labels within folds, 2,000 permutations,
+three seeds (`permutation_test.py`):
+
+| Metric | AUROC (3 seeds) | p (3 seeds) | Clears correction |
+|---|---|---|---|
+| Bit identity | 0.573, 0.559, 0.559 | 0.0005, 0.0015, 0.0015 | yes, all |
+| Pearson | 0.563, 0.553, 0.555 | 0.0025, 0.0035, 0.0025 | yes, all |
+| Jaccard | 0.560, 0.550, 0.551 | 0.0040, 0.0080, 0.0070 | yes, all |
+| Pearson (shared) | 0.538, 0.541, 0.542 | 0.079, 0.018, 0.025 | no |
+| Receptor conservation | 0.494, 0.501, 0.497 | 0.75, 0.94, 0.80 | no (confounder, as intended) |
+| Peptide conservation | 0.498, 0.506, 0.506 | 0.97, 0.73, 0.77 | no (confounder, as intended) |
+
+Null centres sit at 0.496–0.503, so the theoretical chance line was correct
+here; an earlier single-shuffle control returning 0.458 was noise at smaller n.
+
+Three metrics clearing correction in all three seeds, with both conservation
+confounders neutralised, is the pattern a real effect produces. One metric of
+six at p ≈ 0.02 — which is what the 1:1 design gave — is not.
+
+### Not a family-separation artifact
+
+The recurring confound in this project is a metric separating receptor families
+rather than identifying pairs. Per-family AUROC for bit identity, families with
+at least 40 rows:
+
+opioid 0.778 · tachykinin 0.795 · somatostatin 0.573 · chemokine 0.551 ·
+neuropeptide Y 0.532 · cholecystokinin 0.418 · relaxin 0.398 · formylpeptide
+0.389
+
+Heterogeneous in both directions, and no single family carries the pooled
+value, so the effect is not produced by between-family structure. It also is
+not uniform: three of eight families run the other way.
+
+### What the effect is worth
+
+AUROC 0.56 is statistically solid at n ≈ 1,100 and practically small. It does
+not support ranking candidate ligands for an orphan receptor, and no claim of
+that kind should be made from it. The defensible statement is that a weak
+signal exists under this design and is absent under a stricter one.
+
+### Superseded framing
+
+An earlier version of this document concluded flatly that co-evolution does not
+discriminate cognate pairs. That conclusion holds for same-family negatives and
+is wrong as a general claim. The change came from fixing the degree leak and
+adding power, not from selecting a favourable metric: the metric, statistic and
+threshold were fixed in advance of the 3:1 run.
+
+## Earlier analysis: same-family negatives
+
 Presence/absence co-evolution does not rank cognate peptide–GPCR pairs above
 family-matched non-pairs.
 
@@ -28,8 +103,8 @@ them.
 **On the 0.629: it is not a biological confounder.** An earlier version of this
 document read it as evidence that the similarity metrics track gene
 conservation. That interpretation was tested three ways and is wrong; see
-"Taking the conservation effect apart" below. The conclusion about the
-similarity metrics is unaffected.
+"Taking the conservation effect apart" below. In the primary (3:1
+degree-matched) analysis the conservation confounders sit at chance.
 
 ### Controls
 
@@ -120,6 +195,7 @@ tested rather than assumed.
 | Moonlighting proteins drive the conservation effect | Stratified benchmark | Wrong — 0.629 vs 0.636 excluded |
 | Conservation is a proxy for receptor promiscuity | Spearman vs degree | Wrong — 0.064 |
 | The moonlighting stratum shows real co-evolution signal | Family composition of those rows | Wrong — family separation, not pairing |
+| The null holds under any negative-set design | Degree-matched class-wide negatives at 3:1 | Wrong — a weak effect (AUROC 0.56, p < 0.002) appears once the degree leak is removed and power is adequate |
 
 ## Network structure
 
