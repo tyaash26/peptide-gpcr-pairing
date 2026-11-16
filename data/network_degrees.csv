@@ -1,0 +1,334 @@
+gtopdb_id,name,family,degree,side,precursor
+103,GPR37,Class A Orphans with emerging pharmacology,1,receptor,
+104,GPR37L1,Class A Orphans with emerging pharmacology,1,receptor,
+115,GPR75,Class A Orphans with emerging pharmacology,1,receptor,
+147,LGR4,"LGR4, LGR5, LGR6",4,receptor,
+148,LGR5,"LGR4, LGR5, LGR6",4,receptor,
+149,LGR6,"LGR4, LGR5, LGR6",4,receptor,
+156,MRGPRX1,Class A Orphans with emerging pharmacology,1,receptor,
+157,MRGPRX2,Class A Orphans with emerging pharmacology,1,receptor,
+212,CRHR1,Corticotropin-releasing factor receptors,3,receptor,
+213,CRHR2,Corticotropin-releasing factor receptors,4,receptor,
+219,EDNRA,Endothelin receptors,2,receptor,
+220,EDNRB,Endothelin receptors,1,receptor,
+222,FPR1,Formylpeptide receptors,1,receptor,
+223,FPR2,Formylpeptide receptors,6,receptor,
+224,FPR3,Formylpeptide receptors,3,receptor,
+234,FZD6,Class Frizzled GPCRs,3,receptor,
+243,GALR1,Galanin receptors,1,receptor,
+244,GALR2,Galanin receptors,2,receptor,
+245,GALR3,Galanin receptors,2,receptor,
+246,GHSR,Ghrelin receptor,2,receptor,
+247,GHRHR,Glucagon receptor family,1,receptor,
+248,GIPR,Glucagon receptor family,1,receptor,
+249,GLP1R,Glucagon receptor family,3,receptor,
+250,GLP2R,Glucagon receptor family,2,receptor,
+251,GCGR,Glucagon receptor family,1,receptor,
+252,SCTR,Glucagon receptor family,2,receptor,
+253,FSHR,Glycoprotein hormone receptors,1,receptor,
+254,LHCGR,Glycoprotein hormone receptors,2,receptor,
+255,TSHR,Glycoprotein hormone receptors,1,receptor,
+256,GNRHR,Gonadotrophin-releasing hormone receptors,2,receptor,
+265,HRH4,Histamine receptors,1,receptor,
+266,KISS1R,Kisspeptin receptor,4,receptor,
+280,MCHR1,Melanin-concentrating hormone receptors,1,receptor,
+281,MCHR2,Melanin-concentrating hormone receptors,1,receptor,
+282,MC1R,Melanocortin receptors,1,receptor,
+284,MC3R,Melanocortin receptors,3,receptor,
+285,MC4R,Melanocortin receptors,2,receptor,
+286,MC5R,Melanocortin receptors,2,receptor,
+297,MLNR,Motilin receptor,1,receptor,
+298,NMUR1,Neuromedin U receptors,2,receptor,
+299,NMUR2,Neuromedin U receptors,2,receptor,
+3,HTR1D,5-Hydroxytryptamine receptors,1,receptor,
+300,NPFFR1,Neuropeptide FF/neuropeptide AF receptors,2,receptor,
+301,NPFFR2,Neuropeptide FF/neuropeptide AF receptors,1,receptor,
+302,NPSR1,Neuropeptide S receptor,1,receptor,
+303,NPBWR1,Neuropeptide W/neuropeptide B receptors,5,receptor,
+304,NPBWR2,Neuropeptide W/neuropeptide B receptors,4,receptor,
+305,NPY1R,Neuropeptide Y receptors,2,receptor,
+306,NPY2R,Neuropeptide Y receptors,4,receptor,
+307,NPY4R,Neuropeptide Y receptors,3,receptor,
+308,NPY5R,Neuropeptide Y receptors,2,receptor,
+309,NTSR1,Neurotensin receptors,3,receptor,
+31,C3AR1,Complement peptide receptors,1,receptor,
+310,NTSR2,Neurotensin receptors,1,receptor,
+315,ACKR4,Chemokine receptors,3,receptor,
+317,OPRD1,Opioid receptors,7,receptor,
+318,OPRK1,Opioid receptors,7,receptor,
+319,OPRM1,Opioid receptors,6,receptor,
+32,C5AR1,Complement peptide receptors,3,receptor,
+321,HCRTR1,Orexin receptors,2,receptor,
+322,HCRTR2,Orexin receptors,2,receptor,
+33,C5AR2,Complement peptide receptors,3,receptor,
+331,PTH1R,Parathyroid hormone receptors,2,receptor,
+332,PTH2R,Parathyroid hormone receptors,2,receptor,
+333,QRFPR,QRFP receptor,2,receptor,
+335,PROKR1,Prokineticin receptors,3,receptor,
+336,PROKR2,Prokineticin receptors,3,receptor,
+337,PRLHR,Prolactin-releasing peptide receptor,4,receptor,
+34,AGTR1,Angiotensin receptors,4,receptor,
+35,AGTR2,Angiotensin receptors,3,receptor,
+351,RXFP1,Relaxin family peptide receptors,3,receptor,
+352,RXFP2,Relaxin family peptide receptors,4,receptor,
+353,RXFP3,Relaxin family peptide receptors,3,receptor,
+354,RXFP4,Relaxin family peptide receptors,2,receptor,
+355,SSTR1,Somatostatin receptors,3,receptor,
+356,SSTR2,Somatostatin receptors,3,receptor,
+357,SSTR3,Somatostatin receptors,3,receptor,
+358,SSTR4,Somatostatin receptors,3,receptor,
+359,SSTR5,Somatostatin receptors,3,receptor,
+36,APLNR,Apelin receptor,8,receptor,
+360,TACR1,Tachykinin receptors,5,receptor,
+361,TACR2,Tachykinin receptors,3,receptor,
+362,TACR3,Tachykinin receptors,3,receptor,
+365,UTS2R,Urotensin receptor,2,receptor,
+366,AVPR1A,Vasopressin and oxytocin receptors,2,receptor,
+367,AVPR1B,Vasopressin and oxytocin receptors,2,receptor,
+368,AVPR2,Vasopressin and oxytocin receptors,2,receptor,
+369,OXTR,Vasopressin and oxytocin receptors,2,receptor,
+370,ADCYAP1R1,VIP and PACAP receptors,3,receptor,
+371,VIPR1,VIP and PACAP receptors,5,receptor,
+372,VIPR2,VIP and PACAP receptors,3,receptor,
+38,NMBR,Bombesin receptors,2,receptor,
+39,GRPR,Bombesin receptors,4,receptor,
+41,BDKRB1,Bradykinin receptors,5,receptor,
+42,BDKRB2,Bradykinin receptors,3,receptor,
+43,CALCR,Calcitonin receptors,6,receptor,
+44,CALCR|RAMP1,Calcitonin receptors,6,receptor,
+45,CALCR|RAMP2,Calcitonin receptors,5,receptor,
+46,CALCR|RAMP3,Calcitonin receptors,6,receptor,
+48,CALCRL|RAMP1,Calcitonin receptors,4,receptor,
+49,CALCRL|RAMP2,Calcitonin receptors,4,receptor,
+50,CALCRL|RAMP3,Calcitonin receptors,4,receptor,
+58,CCR1,Chemokine receptors,9,receptor,
+59,CCR2,Chemokine receptors,8,receptor,
+60,CCR3,Chemokine receptors,13,receptor,
+61,CCR4,Chemokine receptors,2,receptor,
+62,CCR5,Chemokine receptors,10,receptor,
+63,CCR6,Chemokine receptors,2,receptor,
+64,CCR7,Chemokine receptors,2,receptor,
+65,CCR8,Chemokine receptors,2,receptor,
+66,CCR9,Chemokine receptors,1,receptor,
+67,CCR10,Chemokine receptors,2,receptor,
+68,CXCR1,Chemokine receptors,3,receptor,
+69,CXCR2,Chemokine receptors,7,receptor,
+70,CXCR3,Chemokine receptors,10,receptor,
+71,CXCR4,Chemokine receptors,6,receptor,
+72,CXCR5,Chemokine receptors,1,receptor,
+73,CXCR6,Chemokine receptors,1,receptor,
+74,CX3CR1,Chemokine receptors,1,receptor,
+75,XCR1,Chemokine receptors,2,receptor,
+76,CCKAR,Cholecystokinin receptors,4,receptor,
+77,CCKBR,Cholecystokinin receptors,10,receptor,
+78,CCRL2,Chemokine receptors,1,receptor,
+79,CMKLR1,Chemerin receptors,1,receptor,
+80,ACKR3,Chemokine receptors,2,receptor,
+82,CMKLR2,Chemerin receptors,1,receptor,
+1004,endothelin-3,,1,peptide,EDN3
+10221,CCK-39,,1,peptide,CCK
+1026,spinorphin,,1,peptide,HBB
+1031,annexin I,,1,peptide,ANXA1
+1044,annexin I-(2-26),,2,peptide,ANXA1
+1047,humanin,,2,peptide,MT-RNR2
+1099,ghrelin,,1,peptide,GHRL
+1132,glucagon-like peptide 1-(7-36) amide,,1,peptide,GCG
+1136,glucagon,,2,peptide,GCG
+1140,glucagon-like peptide 2,,1,peptide,GCG
+11417,spexin-1,,2,peptide,SPX
+1143,glucagon-like peptide 2-(3-33),,1,peptide,GCG
+1152,VIP,,4,peptide,VIP
+1157,FSH,,1,peptide,
+1159,LH,,1,peptide,
+1160,hCG,,1,peptide,
+1162,GnRH I,,1,peptide,GNRH1
+1164,GnRH II,,1,peptide,GNRH2
+1272,CCL16,,3,peptide,CCL16
+1283,kisspeptin-10,,1,peptide,KISS1
+1284,kisspeptin-13,,1,peptide,KISS1
+1285,kisspeptin-14,,1,peptide,KISS1
+1288,kisspeptin-54,,1,peptide,KISS1
+1298,melanin-concentrating hormone,,2,peptide,PMCH
+1320,&alpha;-MSH,,4,peptide,POMC
+1333,&gamma;-MSH,,1,peptide,POMC
+1335,agouti-related protein,,3,peptide,AGRP
+137,5-HT-moduline,,1,peptide,
+1458,motilin,,1,peptide,MLN
+1468,neuromedin S-33,,2,peptide,NMS
+1470,neuromedin U-25,,2,peptide,NMU
+1479,neuropeptide FF,,2,peptide,NPFF
+1490,neuropeptide S,,1,peptide,NPS
+1495,neuropeptide W-23,,2,peptide,NPW
+1496,neuropeptide W-30,,2,peptide,NPW
+1499,des-Br-neuropeptide B-23,,1,peptide,NPB
+1500,des-Br-neuropeptide B-29,,1,peptide,NPB
+1501,neuropeptide B-23,,1,peptide,NPB
+1502,neuropeptide B-29,,2,peptide,NPB
+1504,neuropeptide Y,,5,peptide,NPY
+1512,pancreatic polypeptide,,2,peptide,PPY
+1514,peptide YY,,3,peptide,PYY
+1517,PYY-(3-36),,1,peptide,PYY
+1576,large neuromedin N,,1,peptide,NTS
+1577,large neurotensin,,1,peptide,NTS
+1579,neurotensin,,2,peptide,NTS
+1600,&alpha;-neoendorphin,,1,peptide,PDYN
+1613,[Leu]enkephalin,,2,peptide,PENK
+1619,dynorphin A-(1-13),,3,peptide,PDYN
+1620,dynorphin A,,3,peptide,PDYN
+1621,dynorphin A-(1-8),,3,peptide,PDYN
+1622,dynorphin B,,3,peptide,PDYN
+1623,endomorphin-1,,2,peptide,
+1643,&beta;-endorphin,,2,peptide,POMC
+1644,&beta;-neoendorphin,,1,peptide,PDYN
+1697,orexin-A,,2,peptide,HCRT
+1699,orexin-B,,2,peptide,HCRT
+1790,PTHrP-(1-36),,2,peptide,PTHLH
+1815,TIP39,,1,peptide,PTH2
+1822,PTHrP-(1-34) (human),,1,peptide,PTHLH
+1866,prokineticin-1,,2,peptide,PROK1
+1867,prokineticin-2,,2,peptide,PROK2
+1868,prokineticin-2&beta;,,2,peptide,PROK2
+1871,PrRP-20,,1,peptide,PRLH
+1873,PrRP-31,,1,peptide,PRLH
+1988,relaxin-1,,2,peptide,RLN1
+1989,relaxin,,2,peptide,RLN2
+1990,relaxin-3,,4,peptide,RLN3
+1995,INSL3,,1,peptide,INSL3
+1997,relaxin-3 (B chain),,1,peptide,RLN3
+2000,INSL5,,2,peptide,INSL5
+2008,CST-17,,5,peptide,CORT
+2019,SRIF-14,,5,peptide,SST
+2020,SRIF-28,,5,peptide,SST
+2089,neurokinin A,,3,peptide,TAC1
+2090,neurokinin B,,3,peptide,TAC3
+2091,neuropeptide K,,1,peptide,TAC1
+2098,substance P,,3,peptide,TAC1
+2153,urotensin-II,,1,peptide,UTS2
+2156,urotensin II-related peptide,,1,peptide,UTS2B
+2168,vasopressin,,4,peptide,AVP
+2174,oxytocin,,4,peptide,OXT
+2257,PACAP-27,,3,peptide,ADCYAP1
+2258,PACAP-38,,3,peptide,ADCYAP1
+2270,GHRH,,2,peptide,GHRH
+2274,PHM,,1,peptide,VIP
+2504,angiotensin II,,2,peptide,AGT
+2945,chemerin,,2,peptide,RARRES2
+3542,gastric inhibitory polypeptide,,1,peptide,GIP
+3544,glucagon-like peptide 1-(7-37),,1,peptide,GCG
+3547,Wnt-4,,1,peptide,WNT4
+3548,Wnt-5a,,1,peptide,WNT5A
+3549,Wnt-3a,,1,peptide,WNT3A
+3552,CCK-58,,1,peptide,CCK
+3556,apelin-17,,1,peptide,APLN
+3558,desulfated gastrin-14,,1,peptide,GAST
+3562,gastrin-34,,1,peptide,GAST
+3566,gastrin-71,,1,peptide,GAST
+3592,galanin,,3,peptide,GAL
+3627,neuropeptide Y-(3-36),,1,peptide,NPY
+3640,C3a,,1,peptide,C3
+3643,secretin,,1,peptide,SCT
+3645,CXCL13,,1,peptide,CXCL13
+3646,CCL27,,1,peptide,CCL27
+3647,XCL1,,1,peptide,XCL1
+3648,beta-defensin 4A,,1,peptide,
+3649,CCL28,,2,peptide,CCL28
+3665,QRFP43 (43RFa),,1,peptide,QRFP
+3667,neuropeptide &gamma;,,1,peptide,TAC1
+3697,R-spondin-1,,3,peptide,RSPO1
+3698,R-spondin-2,,3,peptide,RSPO2
+3699,R-spondin-3,,3,peptide,RSPO3
+3700,R-spondin-4,,3,peptide,RSPO4
+3728,ribosomal protein S19,,2,peptide,RPS19
+3729,cytokine domain of tyrosyl tRNA synthetase,,1,peptide,YARS1
+3738,PTHrP,,1,peptide,PTHLH
+3920,TSH,,1,peptide,
+3935,F2L,,1,peptide,HEBP1
+4016,RFRP-3,,1,peptide,NPVF
+4057,PAMP-20,,1,peptide,ADM
+4058,bovine adrenal medulla peptide 8-22,,1,peptide,PENK
+4358,CXCL12&alpha;,,3,peptide,CXCL12
+4370,XCL2,,1,peptide,XCL2
+5368,angiotensin IV,,1,peptide,AGT
+5527,LL-37,,1,peptide,CAMP
+573,C5a,,2,peptide,C5
+574,C5a des-Arg,,2,peptide,C5
+582,angiotensin-(1-7),,1,peptide,AGT
+585,angiotensin III,,2,peptide,AGT
+5895,QRFP26 (26RFa),,1,peptide,QRFP
+599,[Pyr<sup>1</sup>]apelin-13,,1,peptide,APLN
+605,apelin-13,,1,peptide,APLN
+606,apelin-36,,1,peptide,APLN
+6067,prosaptide,,2,peptide,PSAP
+612,gastrin-releasing peptide,,1,peptide,GRP
+613,neuromedin B,,2,peptide,NMB
+6175,gastrin releasing peptide(14-27) (human),,2,peptide,GRP
+6178,neuromedin C,,1,peptide,GRP
+6242,serum amyloid A,,1,peptide,SAA1
+6244,PrP<sub>106-126</sub>,,1,peptide,PRNP
+639,T-kinin,,1,peptide,KNG1
+644,[des-Arg<sup>10</sup>]kallidin,,1,peptide,KNG1
+646,[des-Arg<sup>9</sup>]bradykinin,,2,peptide,KNG1
+649,bradykinin,,2,peptide,KNG1
+650,kallidin,,2,peptide,KNG1
+681,&alpha;-CGRP,,7,peptide,CALCA
+682,&beta;-CGRP,,6,peptide,CALCB
+683,adrenomedullin,,7,peptide,ADM
+684,adrenomedullin 2/intermedin,,7,peptide,ADM2
+685,calcitonin,,4,peptide,CALCA
+687,amylin,,4,peptide,IAPP
+6894,angiotensin A,,1,peptide,AGT
+753,CCL14,,2,peptide,CCL14
+754,CCL15,,2,peptide,CCL15
+755,CCL23,,1,peptide,CCL23
+756,CCL3,,2,peptide,CCL3
+757,CCL4,,2,peptide,CCL4
+758,CCL5,,5,peptide,CCL5
+759,CCL7,,5,peptide,CCL7
+769,CCL11,,4,peptide,CCL11
+770,CCL13,,5,peptide,CCL13
+771,CCL2,,3,peptide,CCL2
+772,CCL8,,5,peptide,CCL8
+775,CCL24,,2,peptide,CCL24
+776,CCL26,,2,peptide,CCL26
+7930,apelin receptor early endogenous ligand,,1,peptide,APELA
+797,CCL17,,1,peptide,CCL17
+798,CCL22,,1,peptide,CCL22
+808,CCL20,,2,peptide,CCL20
+810,CCL19,,4,peptide,CCL19
+811,CCL21,,2,peptide,CCL21
+812,CCL1,,1,peptide,CCL1
+817,CCL25,,2,peptide,CCL25
+819,CXCL1,,1,peptide,CXCL1
+820,CXCL6,,2,peptide,CXCL6
+821,CXCL8,,2,peptide,CXCL8
+827,CXCL2,,1,peptide,CXCL2
+828,CXCL3,,1,peptide,CXCL3
+829,CXCL5,,1,peptide,CXCL5
+830,CXCL7,,1,peptide,PPBP
+835,CXCL10,,2,peptide,CXCL10
+836,CXCL11,,3,peptide,CXCL11
+837,CXCL9,,2,peptide,CXCL9
+8408,desulfated gastrin-17,,1,peptide,GAST
+8409,desulfated gastrin-34,,1,peptide,GAST
+8410,desulfated gastrin-71,,1,peptide,GAST
+8411,gastrin-14,,1,peptide,GAST
+845,CXCL12&beta;,,1,peptide,CXCL12
+8524,Elabela/Toddler-32,,1,peptide,APELA
+8525,Elabela/Toddler-21,,1,peptide,APELA
+8526,Elabela/Toddler-11,,1,peptide,APELA
+8530,CXCL12&gamma;,,1,peptide,CXCL12
+8531,CXCL12&delta;,,1,peptide,CXCL12
+8532,CXCL12&epsilon;,,1,peptide,CXCL12
+8533,CXCL12&phi;,,1,peptide,CXCL12
+855,CXCL16,,1,peptide,CXCL16
+856,CX<sub>3</sub>CL1,,1,peptide,CX3CL1
+860,CCK-33,,2,peptide,CCK
+861,CCK-4,,1,peptide,CCK
+864,CCK-8,,2,peptide,CCK
+912,corticotrophin-releasing hormone,,2,peptide,CRH
+919,urocortin 1,,2,peptide,UCN
+921,urocortin 2,,2,peptide,UCN2
+928,urocortin 3,,1,peptide,UCN3
+9734,liver enriched antimicrobial peptide 2,,1,peptide,LEAP2
+989,endothelin-1,,1,peptide,EDN1
+990,endothelin-2,,1,peptide,EDN2

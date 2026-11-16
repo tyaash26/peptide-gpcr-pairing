@@ -1,0 +1,80 @@
+386 pairs · 126 receptors · 207 peptides · 129 precursor genes
+
+Receptors per peptide
+  median 1, mean 1.86, max 7
+    1 receptor(s): 109 peptides (53%)
+    2 receptor(s):  57 peptides (28%)
+    3 receptor(s):  20 peptides (10%)
+    4 receptor(s):   9 peptides (4%)
+    5 receptor(s):   8 peptides (4%)
+    6 receptor(s):   1 peptides (0%)
+    7 receptor(s):   3 peptides (1%)
+
+Peptides per receptor
+  median 2, mean 3.06, max 13
+    1 peptide(s):  30 receptors (24%)
+    2 peptide(s):  34 receptors (27%)
+    3 peptide(s):  26 receptors (21%)
+    4 peptide(s):  15 receptors (12%)
+    5 peptide(s):   5 receptors (4%)
+    6 peptide(s):   6 receptors (5%)
+    7 peptide(s):   3 receptors (2%)
+    8 peptide(s):   2 receptors (2%)
+    9 peptide(s):   1 receptors (1%)
+    10 peptide(s):   3 receptors (2%)
+    13 peptide(s):   1 receptors (1%)
+
+Most promiscuous peptides
+  &alpha;-CGRP                        7 receptors (from CALCA)
+  adrenomedullin                      7 receptors (from ADM)
+  adrenomedullin 2/intermedin         7 receptors (from ADM2)
+  &beta;-CGRP                         6 receptors (from CALCB)
+  neuropeptide Y                      5 receptors (from NPY)
+  CST-17                              5 receptors (from CORT)
+  SRIF-14                             5 receptors (from SST)
+  SRIF-28                             5 receptors (from SST)
+
+Most promiscuous receptors
+  CCR3       13 peptides (Chemokine receptors)
+  CCR5       10 peptides (Chemokine receptors)
+  CXCR3      10 peptides (Chemokine receptors)
+  CCKBR      10 peptides (Cholecystokinin receptors)
+  CCR1        9 peptides (Chemokine receptors)
+  APLNR       8 peptides (Apelin receptor)
+  CCR2        8 peptides (Chemokine receptors)
+  OPRD1       7 peptides (Opioid receptors)
+
+By receptor family (families with >= 3 receptors)
+  Opioid receptors                         3 rec   9 pep  20 pairs   6.67 per receptor
+  Calcitonin receptors                     7 rec   6 pep  35 pairs    5.0 per receptor
+  Chemokine receptors                     21 rec  46 pep  88 pairs   4.19 per receptor
+  LGR4, LGR5, LGR6                         3 rec   4 pep  12 pairs    4.0 per receptor
+  Tachykinin receptors                     3 rec   5 pep  11 pairs   3.67 per receptor
+  VIP and PACAP receptors                  3 rec   5 pep  11 pairs   3.67 per receptor
+  Formylpeptide receptors                  3 rec   8 pep  10 pairs   3.33 per receptor
+  Relaxin family peptide receptors         4 rec   6 pep  12 pairs    3.0 per receptor
+  Somatostatin receptors                   5 rec   3 pep  15 pairs    3.0 per receptor
+  Neuropeptide Y receptors                 4 rec   5 pep  11 pairs   2.75 per receptor
+  Complement peptide receptors             3 rec   4 pep   7 pairs   2.33 per receptor
+  Melanocortin receptors                   4 rec   3 pep   8 pairs    2.0 per receptor
+  Vasopressin and oxytocin receptors       4 rec   2 pep   8 pairs    2.0 per receptor
+  Galanin receptors                        3 rec   2 pep   5 pairs   1.67 per receptor
+  Glucagon receptor family                 6 rec   9 pep  10 pairs   1.67 per receptor
+  Glycoprotein hormone receptors           3 rec   4 pep   4 pairs   1.33 per receptor
+  Class A Orphans with emerging pharmaco   5 rec   4 pep   5 pairs    1.0 per receptor
+
+Precursors yielding several distinct peptides
+  32 of 129 precursors give more than one peptide
+    GAST       7 peptides
+    CXCL12     6 peptides
+    PDYN       6 peptides
+    GCG        5 peptides
+    KNG1       5 peptides
+    CCK        5 peptides
+    AGT        5 peptides
+    APLN       4 peptides
+
+Classical prohormones against moonlighting proteins
+  classical prohormone   351 pairs, 110 precursors, 114 receptors
+  moonlighting protein    35 pairs,  19 precursors,  13 receptors
+  (moonlighting set is hand-curated; see MOONLIGHTING in this script)
